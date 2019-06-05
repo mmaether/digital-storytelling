@@ -1,0 +1,1518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE digital_story SYSTEM "file:/C:/Users/Mike%20Maether/Documents/RIT/capstone/xml-conversion/xml/story.dtd">
+<digital_story>
+    <about include_title_page="no">
+        <title>Falling Giants</title>
+        <creators>
+            <creator creator_type="Creator" creator_name="Mike Maether"/>
+        </creators>
+        <date month="May" day="5" year="2013"/>
+        <sources>
+            <source source_type="Image" source_title="mf360.jpg" source_creator="jeltovski" source_link="http://mrg.bz/KebnLJ"/>
+            <source source_type="Image" source_title="Night Drive!" source_creator="nevit" source_link="http://www.sxc.hu/photo/523929"/>
+            <source source_type="Image" source_title="Rural landscape" source_creator="ColinBroug" source_link="http://www.sxc.hu/photo/1400668"/>
+            <source source_type="Image" source_title="Everyday objects 3" source_creator="hannahgleg" source_link="http://www.sxc.hu/photo/333633"/>
+            <source source_type="Image" source_title="Fire and explosion" source_creator="svans888" source_link="http://www.sxc.hu/photo/1418962"/>
+            <source source_type="Image" source_title="Fire burning" source_creator="winlord" source_link="http://www.sxc.hu/photo/1351606"/>
+            <source source_type="Image" source_title="Hospital del Sureste" source_creator="jacinta lluch valero" source_link="http://www.flickr.com/photos/70626035@N00/8466634736/"/>
+            <source source_type="Image" source_title="Ford Fairmont two door sedan" source_creator="dave_7" source_link="http://www.flickr.com/photos/daveseven/6955845287/"/>
+            <source source_type="Graphics" source_title="White tiles" source_creator="Another One" source_link="http://subtlepatterns.com/white-tiles/"/>
+            <source source_type="Graphics" source_title="Gray Floral" source_creator="Lauren Harrison" source_link="http://subtlepatterns.com/gray-floral/"/>
+            <source source_type="Image" source_title="front window curtains" source_creator="artnoose" source_link="http://www.flickr.com/photos/artnoose/2390124541/"/>
+            <source source_type="Graphics" source_title="Durkan Meridian Carpet texture 1" source_creator="Patricia Abood" source_link="http://www.3d-diva.com/page1_carpetsrugs.html"/>
+            <source source_type="Image" source_title="Bedtime 2" source_creator="ddrccl" source_link="http://www.sxc.hu/photo/1122196"/>
+            <source source_type="Image" source_title="Red Couch" source_creator="neadeau" source_link="http://www.sxc.hu/photo/1084562"/>
+            <source source_type="Other" source_title="Pack 2: Wireframe Brushes" source_creator="Vina Nguyen" source_link="http://xyunaxfantasiesx.deviantart.com/art/Pack-2-Wireframe-Brushes-63845118"/>
+            <source source_type="Other" source_title="24 Clouds Brushes" source_creator="Milanda" source_link="http://www.brusheezy.com/brushes/2187-24-clouds"/>
+            <source source_type="Image" source_title="Seamless Green Grass Textures" source_creator="Goodtextures" source_link="http://www.brusheezy.com/textures/20185-seamless-green-grass-textures"/>
+            <source source_type="Image" source_title="Golden wood picture frame" source_creator="stoonn" source_link="http://www.sxc.hu/photo/1360024"/>
+            <source source_type="Image" source_title="Red Door" source_creator="Knilram" source_link="http://www.flickr.com/photos/knilram/219208683/"/>
+            <source source_type="Other" source_title=".:Bubble Brushes:." source_creator="Sahara Knoblauch" source_link="http://saharaknoblauch.deviantart.com/art/Bubble-Brushes-78905582"/>
+            <source source_type="Image" source_title="Explosion" source_creator="nickilby" source_link="http://www.sxc.hu/photo/806086"/>
+            <source source_type="Image" source_title="Rural Driveway" source_creator="Morrhigan" source_link="http://www.sxc.hu/photo/113490"/>
+            <source source_type="Image" source_title="Wood_floor_light.jpg" source_creator="3D Diva" source_link="http://www.3d-diva.com/page1_flooring.html"/>
+            <source source_type="Image" source_title="Century Farm-Bronze.jpg" source_creator="3D Diva" source_link="http://www.3d-diva.com/page1_flooring.html"/>
+            <source source_type="Video" source_title="EKG (you can use this video)" source_creator="Carmen Mallard" source_link="https://www.youtube.com/watch?v=7N4viIanngg"/>
+            <source source_type="Image" source_title="Heart Monitor" source_creator="Ben Becker" source_link="http://www.flickr.com/photos/brokentrinkets/3074885501/"/>
+            <source source_type="Other" source_title="Cloud Brushes ver. 3" source_creator="Cloud No. 9" source_link="http://cloud-no9.deviantart.com/art/Cloud-Brushes-ver-3-59000409"/>
+            <source source_type="Image" source_title="IV Drip - Intravenous Drug" source_creator="adamci" source_link="http://www.sxc.hu/photo/253462"/>
+            <source source_type="Image" source_title="Ice Cream" source_creator="becco" source_link="http://www.sxc.hu/photo/985571"/>
+            <source source_type="Image" source_title="lick it" source_creator="nazreth" source_link="http://www.sxc.hu/photo/1024965"/>
+            <source source_type="Image" source_title="Pino" source_creator="carlosuce" source_link="http://www.sxc.hu/photo/1236471"/>
+            <source source_type="Image" source_title="Nightstand" source_creator="designkryt" source_link="http://www.sxc.hu/photo/515703"/>
+            <source source_type="Image" source_title="Lamp" source_creator="turpi" source_link="http://www.sxc.hu/photo/584168"/>
+            <source source_type="Image" source_title="SOLD: Coffee table, pecan, glass inlay" source_creator="" source_link="http://www.flickr.com/photos/thelivingroominkenmore/4054972306/ "/>
+            <source source_type="Image" source_title="Alexanderschlacht, Detail" source_creator="Albrecht Altdorfer" source_link="http://commons.wikimedia.org/wiki/File%3AAlbrecht_Altdorfer_002.jpg"/>
+            <source source_type="Image" source_title="Car Rally Start" source_creator="cibek" source_link="http://www.sxc.hu/photo/1155937"/>
+            <source source_type="Image" source_title="Crater Lake National Park, Oregon" source_creator="Ron Reiring" source_link="http://www.flickr.com/photos/84263554@N00/8396718278/"/>
+            <source source_type="Image" source_title="Hospital" source_creator="Woopidoo2" source_link="http://www.sxc.hu/photo/1031747"/>
+            <source source_type="Image" source_title="chenile" source_creator="Lara" source_link="http://www.flickr.com/photos/midori/1251030555/"/>
+            <source source_type="Image" source_title="white coat matt" source_creator="JPH" source_link="http://www.flickr.com/photos/eiluj/6922193546/#"/>
+            <source source_type="Image" source_title="Carrie Smith Blogger Photoshoot October 09, 201147" source_creator="Steven Depolo" source_link="https://secure.flickr.com/photos/stevendepolo/6231980821/"/>
+            <source source_type="Image" source_title="My handsome husband" source_creator="Meredith Farkas" source_link="https://secure.flickr.com/photos/librarianmer/510160629/"/>
+            <source source_type="Image" source_title="Pensive Adam at the canyon rim" source_creator="Meredith Farkas" source_link="https://secure.flickr.com/photos/librarianmer/510072101/"/>
+            <source source_type="Image" source_title="I hooked a hottie :)" source_creator="Meredith Farkas" source_link="https://secure.flickr.com/photos/librarianmer/1500471186/"/>
+            <source source_type="Image" source_title="Hiking with Adam" source_creator="Meredith Farkas" source_link="https://secure.flickr.com/photos/librarianmer/772499467/"/>
+            <source source_type="Image" source_title="Adam in Savannah" source_creator="Meredith Farkas" source_link="https://secure.flickr.com/photos/librarianmer/25997654/"/>
+            <source source_type="Image" source_title="This is overlooking the valley area, Barstow, Victorville off in the distance" source_creator="Kurt Williams" source_link="https://secure.flickr.com/photos/bigkurt/2915550471/"/>
+            <source source_type="Image" source_title="Chat" source_creator="mzacha" source_link="http://www.sxc.hu/photo/1391244"/>
+            <source source_type="Image" source_title="tadpole" source_creator="mazzir" source_link="http://www.sxc.hu/photo/1159558"/>
+            <source source_type="Image" source_title="Becky at WM 01" source_creator="Sarah Ross" source_link="https://secure.flickr.com/photos/23680544@N07/6335038150/"/>
+            <source source_type="Image" source_title="Becky at WM 02" source_creator="Sarah Ross" source_link="https://secure.flickr.com/photos/23680544@N07/6334284835/"/>
+            <source source_type="Image" source_title="Becky at WM 03" source_creator="Sarah Ross" source_link="https://secure.flickr.com/photos/23680544@N07/6335037424/"/>
+            <source source_type="Image" source_title="Bookcase Closeup" source_creator="Amanda Westmont" source_link="https://secure.flickr.com/photos/mandajuice/2851888361/"/>
+            <source source_type="Image" source_title="Sideways, With Parents" source_creator="Eric Peacock" source_link="https://secure.flickr.com/photos/evilpeacock/8260615872/"/>
+            <source source_type="Image" source_title="comedor" source_creator="guidogferr" source_link="http://www.sxc.hu/photo/169418"/>
+            <source source_type="Image" source_title="East wall of windows" source_creator="KellyK" source_link="https://secure.flickr.com/photos/elasticsoul/422755072/"/>
+            <source source_type="Image" source_title="City at Night" source_creator="mzacha" source_link="http://www.sxc.hu/photo/1383807"/>
+            <source source_type="Image" source_title="A lamp" source_creator="mzacha" source_link="http://www.sxc.hu/photo/776768"/>
+            <source source_type="Image" source_title="Vitrine" source_creator="marmit" source_link="http://www.sxc.hu/photo/753609"/>
+            <source source_type="Graphics" source_title="^natural bamboo.jpg" source_creator="3D-Diva" source_link="http://www.3d-diva.com/page1_flooring.html"/>
+        </sources>
+    </about>
+    <overall_style>
+        <overall_font/>
+        <overall_spacing page_length="medium"/>
+        <paragraph_spacing/>
+        <control_bar show_day_night_mode_toggle="no"/>
+        <title_page_style/>
+        <favicon file_format=".ico" href="images/final_story/favicon.ico"/>
+        <page_length number_of_scenes_on_page="3"/>
+    </overall_style>
+    <story>
+        <scene height="360">
+            <image source="images/final_story/little_squid/little_squid.png" alt="A squid" z-index="2">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text text_shadow="basic_shadow" font_size="24px" font_color_preset="White" z-index="2">
+                <text_content><font-color font_color_preset="Bisque">Somewhere</font-color> in the middle of the vast ocean there was a little squid named Eustace.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="40px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/little_squid/bubbles1.png" alt="A bunch of bubbles" z-index="1">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="380px"/>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/little_squid/sea_bg.jpg" repeat="repeat-x"></background_image>
+        </scene>
+        <scene height="720px" border-color="black" border-style="solid" border-width="8px" border-side="top">
+            <image source="images/final_story/little_squid/father_squid.png" alt="The little squids father">
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/tiny_squid.png" alt="The little squid">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="570px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/mother_squid.png" alt="The little squids mother">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="750px"/>
+                    <position direction="move_to_the_right" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text text_shadow="basic_shadow" font_size="24px" font_color_preset="White">
+                <text_content>The little squid was rather awkward. He didn't have any brothers and sisters.<new_line/> 
+                    The only other squids he knew were his parents, who were giant squids.</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="700px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text font_size="18px" balloon_styles="speech_left" width="300px" background_color_custom="#FF2929" font_color_preset="White">
+                <text_content>Honey, hurry up! We're gonna miss <bold_italic>South Pacific Idol</bold_italic>.</text_content>
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="20px"/>
+                    <position direction="move_upwards" value_in_pixels="1200px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text font_size="18px" balloon_styles="speech_right" width="300px" background_color_custom="#B82586" font_color_preset="White">
+                <text_content>Well if <font-color font_color_preset="Light_Pink">somebody</font-color> cleaned their ink up after themselves, then I'd have more free time.</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="15px"/>
+                    <position direction="move_upwards" value_in_pixels="1160px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <background_image source="images/final_story/little_squid/sea_bg.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene border-color="black" border-style="solid" border-width="8px" border-side="top" height="540px">
+            <text balloon_styles="speech_bottom">
+                <text_content>You could land a <font-size font_size="24px">submarine</font-size> on his head!</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="60px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_right">
+                <text_content>I heard he escaped from squid row!</text_content>
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="520px"/>
+                    <position direction="move_downwards" value_in_pixels="190px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_left">
+                <text_content>I bet he's from Sydney.</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="40px"/>
+                    <position direction="move_downwards" value_in_pixels="155px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text text_shadow="basic_shadow" font_size="26px" font_color_preset="White">
+                <text_content>All of the other sea creatures found Eustace to be different, and said rude comments behind his back.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="260px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/little_squid/fish.png" alt="A fish" z-index="3">
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="300px"/>
+                    <position direction="move_downwards" value_in_pixels="50px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/shrimp.png" alt="A shrimp">
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="200px"/>
+                    <position direction="move_upwards" value_in_pixels="100px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/turtle.png" alt="A turtle">
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="150"/>
+                    <position direction="move_upwards" value_in_pixels="100px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/little_squid.png" alt="The little squid">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="400px"/>
+                    <position direction="move_upwards" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/little_squid/sea_bg.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene overflow="visible" height="225px">
+            <image source="images/final_story/little_squid/boat.png" alt="Boat">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="15px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/net.png" alt="Net">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="160px"/>
+                    <position direction="move_to_the_left" value_in_pixels="390px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/cartoon_sky.jpg" repeat="repeat-x"></background_image>
+        </scene>
+        <scene>
+            <text balloon_styles="speech_bottom">
+                <text_content>Life sure is safe in the ocean.</text_content>
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="65px"/>
+                    <position direction="move_downwards" value_in_pixels="95px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_bottom">
+                <text_content>I can't wait to live a long, healthy life.</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="100px"/>
+                    <position direction="move_downwards" value_in_pixels="130px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_top" width="300px">
+                <text_content>And you will Reginald, and this is coming from a guy who turns 115 tomorrow.</text_content>
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="220px"/>
+                    <position direction="move_downwards" value_in_pixels="280px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text text_shadow="basic_shadow" font_size="26px" font_color_preset="White">
+                <text_content>Until one day a fisherman snuck up behind the fish and snagged them all with his net.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="350px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/little_squid/fish.png" alt="A fish" z-index="3">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="50px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/shrimp.png" alt="A shrimp">
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="200px"/>
+                    <position direction="move_upwards" value_in_pixels="100px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/turtle.png" alt="A turtle">
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="150"/>
+                    <position direction="move_upwards" value_in_pixels="100px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/little_squid.png" alt="The little squid">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="400px"/>
+                    <position direction="move_upwards" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/little_squid/sea_bg.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene border-width="8px" border-color="black" border-side="top" border-style="solid" height="700px">
+            <text text_shadow="basic_shadow" font_size="26px" font_color_preset="White" text-align="center">
+                <text_content>Seeing his peers struggle as they flopped in the fisherman's net, Eustace knew 
+                    what he must do.<new_line/>He squeezed, he molded, and he slid out of the net. </text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="550px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/little_squid/net_with_squid.png" alt="The little squid escaping from the net" z-index="15">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="80px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/fish.png" alt="A fish">
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="100px"/>
+                    <position direction="move_upwards" value_in_pixels="270px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/shrimp.png" alt="A shrimp">
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="40px"/>
+                    <position direction="move_upwards" value_in_pixels="400px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/turtle.png" alt="A turtle">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="415px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text balloon_styles="speech_bottom" z-index="16" font_size="22px">
+                <text_content><bold>I haven't even kissed my first invertebrate!</bold></text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="700px"/>
+                    <position direction="move_to_the_right" value_in_pixels="165px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_right" z-index="16" font_size="22px" width="240px">
+                <text_content><bold>I'll never graduate from my school of fish!</bold></text_content>
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="320px"/>
+                    <position direction="move_upwards" value_in_pixels="590px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_left" font_size="22px" z-index="16">
+                <text_content><bold>Why am I always friends with younger fish?!</bold></text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="350px"/>
+                    <position direction="move_upwards" value_in_pixels="650px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <background_image source="images/final_story/little_squid/sea_bg.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene background_color_preset="Dark_Slate_Gray" height="200px"></scene>
+        <scene height="400px" background_color_preset="Dark_Slate_Gray">
+            <text font_color_preset="White" font_size="26px" text_shadow="basic_shadow" text-align="center">
+                <text_content>Being just a small creature, Eustace thought hard about how to save the other fish. He was too small to help out.<new_line/> 
+                    And that's when it came to him, for Eustace knew how to save everyone.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="150px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+        </scene>
+        <scene background_color_preset="Dark_Slate_Gray" height="400px"></scene>
+        <scene overflow="visible" height="225px">
+            <image source="images/final_story/little_squid/boat.png" alt="Boat">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="15px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/father_squid.png" alt="Father squid" rotation_in_degrees="90" z-index="2">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="400px"/>
+                    <position direction="move_to_the_left" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/little_squid/explosion.png" alt="An explosion" z-index="3">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="870px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/cartoon_sky.jpg" repeat="repeat-x"></background_image>
+        </scene>
+        <scene height="350px">
+            <text text_shadow="basic_shadow" font_size="26px" font_color_preset="White" z-index="4">
+                <text_content>He told his father.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="180px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/little_squid/net.png" alt="Net" z-index="1">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="70px"/>
+                    <position direction="move_to_the_left" value_in_pixels="270px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/little_squid/sea_bg.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene height="730px" border-width="8px" border-style="solid" border-side="top" border-color="black">
+            <text text_shadow="basic_shadow" font_size="26px" font_color_preset="White" text-align="center">
+                <text_content>Eustace helped save the fish! All the other fish wanted to be friends with Eustace. 
+                    <new_line/>This made Eustace very happy, for he knew that one day he too will be able to destroy mankind.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="600px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/little_squid/two_little_squids.png" alt="Two images of Eustace">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="80px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/little_squid/fire_bg.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene border-color="black" border-side="bottom" border-style="solid" border-width="8px">
+            <image source="images/final_story/room/book.png" alt="The Little Squid book">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text balloon_styles="speech_left" font_size="24px" width="400px">
+                <text_content>Well now... what did you kids learn?</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <background_image source="images/final_story/repeating_bg/rug.jpg"></background_image>
+        </scene>
+        <scene border-color="#000" border-side="bottom" border-style="solid" border-width="8px" height="600px">
+            <text balloon_styles="speech_bottom" z-index="2" background_color_custom="#536AB0" font_color_preset="White" font_size="24px">
+                <text_content>Have your parents fight for you! Make friends with squids!</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="175px"/>
+                    <position direction="move_to_the_left" value_in_pixels="60px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_bottom" z-index="2" font_size="24px">
+                <text_content>Never trust a fish!</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="150px"/>
+                    <position direction="move_downwards" value_in_pixels="200px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/room/living_room_items_sm.png" alt="A couple of items in the living room" z-index="1">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/living_room_repeat.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene height="550px">
+            <text balloon_styles="speech_bottom" font_size="24px" width="600px" z-index="4">
+                <text_content>Haha, I think the moral of the story is that your dad should thumb through the story before reading it to you.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="100px"/>
+                    <position direction="move_to_the_right" value_in_pixels="170px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_left" font_size="24px" width="400px" z-index="3">
+                <text_content>It's time to get ready, we're going to see mom today.</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="250px"/>
+                    <position direction="move_downwards" value_in_pixels="170px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="-300"/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/room/living_room_items_sm.png" alt="A couple of items in the living room" z-index="1">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="100px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/living_room_repeat.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene height="800px" background_color_custom="#9DBFE5" border-color="black" border-side="bottom" border-style="solid" border-width="8px">
+            <text balloon_styles="speech_bottom" font_color_preset="White" font_size="24px" background_color_custom="#536AB0">
+                <text_content>I can't wait to see mom!</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="250px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="0"/>
+                </text_scrolling_animation>
+            </text>
+            <text balloon_styles="speech_bottom" font_color_preset="White" font_size="24px" background_color_custom="#FF8009">
+                <text_content>She owes me a kiss!</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="260px"/>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="0"/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/travel/car_side.png" alt="The family is driving" flip="horizontal">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="320px"/>
+                    <position direction="move_to_the_right" value_in_pixels="600px"/>
+                    <preset_position horizontal="none"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly offset="-200" duration="800">
+                        <fly_to_the_right in_pixels="1000px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/clouds/cloud1.png" alt="A cloud">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="748px"/>
+                    <position direction="move_to_the_right" value_in_pixels="400px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="1600" offset="-500">
+                        <fly_to_the_left in_pixels="100px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/clouds/cloud2.png" alt="A cloud">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="280px"/>
+                    <position direction="move_to_the_right" value_in_pixels="900px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="1600" offset="-500">
+                        <fly_to_the_left in_pixels="140px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/clouds/cloud3.png" alt="A cloud">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="260px"/>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="1600" offset="-500">
+                        <fly_to_the_left in_pixels="120px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <background_image source="images/final_story/travel/road_sm.png" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-bottom"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="810px" background_color_custom="#9DBFE5" >
+            <image source="images/final_story/clouds/cloud1.png" alt="A cloud" z-index="3">
+                <image_scrolling_animation>
+                    <fly duration="1600" offset="-500">
+                        <fly_to_the_left in_pixels="200px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/clouds/cloud2.png" alt="A cloud" z-index="3">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="300px"/>
+                    <position direction="move_to_the_right" value_in_pixels="400px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="1600" offset="-500">
+                        <fly_to_the_left in_pixels="600px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/clouds/cloud3.png" alt="A cloud" z-index="3">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="250px"/>
+                    <position direction="move_to_the_right" value_in_pixels="1000px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="1600" offset="-500">
+                        <fly_to_the_left in_pixels="100px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <text font_size="80px" font_family="Big_Caslon" text_shadow="hard_shadow" font_color_custom="#D9F7F6">
+                <text_content><bold>Falling Giants</bold></text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="150px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text font_size="42px" text_shadow="basic_shadow" font_color_custom="#CDE8FF">
+                <text_content>By Mike Maether</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="150px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/travel/car_back_small.png" alt="The car that the family is driving in">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="150px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly offset="-700" duration="400">
+                        <fly_upwards in_pixels="200px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <background_image source="images/final_story/hospital_distance_small_blur.png" repeat="no-repeat">
+                <background_position>
+                    <bg_preset position_presets="center-bottom" fit_width="no"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene></scene>
+        <scene height="845px" border-color="black" border-side="bottom" border-width="8px" border-style="solid">
+            <image source="images/final_story/room/hospital_items_two.png" alt="The hospital bed">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="190px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text balloon_styles="speech_bottom" font_size="26px" z-index="2">
+                <text_content>Mommy! I drew you a picture!</text_content>
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="300px"/>
+                    <position direction="move_upwards" value_in_pixels="340px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text font_size="26px" balloon_styles="speech_bottom">
+                <text_content>We missed you so much!</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="500px"/>
+                    <position direction="move_upwards" value_in_pixels="450px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/room/ekg_small.gif" alt="A repeating animation of the EKG machine">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="390px"/>
+                    <position direction="move_to_the_right" value_in_pixels="297px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/hospital_room_2.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-top"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene border-style="solid" border-width="8px" border-side="bottom" border-color="black" height="600px">
+            <text font_size="26px" balloon_styles="speech_bottom" z-index="3">
+                <text_content>I missed you two <italic>so very much!</italic> And James, what a wonderful drawing!</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="20px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/characters/mother.png" alt="The mother looks happy">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="70px"/>
+                    <position direction="move_to_the_left" value_in_pixels="260px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/hospital_wall.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene height="700px">
+            <image source="images/final_story/drawings/drawings_complete.png" alt="Many drawings that was made for their mother">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text font_size="26px" balloon_styles="speech_right" width="300px" z-index="2">
+                <text_content>I'll ask the nurse for some tape, and I'll add it to your gallery.</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="340px"/>
+                    <position direction="move_upwards" value_in_pixels="210px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <background_image source="images/final_story/repeating_bg/hospital_wall.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene height="710px">
+            <text balloon_styles="speech_bottom" font_size="28px" z-index="2">
+                <text_content>Excuse me Mr. Stewart, may I have a word with you in the hall?</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="20px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/characters/doctor_frame.jpg" alt="The doctor">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="75px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/hospital_wall.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene background_color_preset="Black" height="800px">
+            <image source="images/final_story/silhouette_chat.jpg" alt="The doctor and husband talking">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+        </scene>
+        <scene height="700px">
+            <text balloon_styles="thought" font_size="24px" z-index="2">
+                <text_content>Is dad okay...?</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="15px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="-200"/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/characters/liz/liz_unhappy.png" alt="Liz is unhappy" z-index="2">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="20px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/room/window_2.jpg" alt="A window in the hospital">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="750px"/>
+                    <position direction="move_to_the_right" value_in_pixels="250px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/hospital_wall.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene height="670px">
+            <image source="images/final_story/room/iv_small_2.gif" alt="An IV dripping">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="1px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/hospital_wall.jpg" repeat="repeat-x"></background_image>
+        </scene>
+        <scene height="800px" background_color_custom="#9DBFE5" border-color="black" border-side="top" border-style="solid" border-width="8px">
+            <image source="images/final_story/travel/car_side.png" alt="The family is driving">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="440px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly offset="-200" duration="800">
+                        <fly_to_the_left in_pixels="1000px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <background_image source="images/final_story/travel/road_sm.png" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-bottom"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="700px" border-color="black" border-side="top" border-width="8px" border-style="solid" background_color_custom="#A4353F"> 
+            <text balloon_styles="speech_bottom" font_size="26px" background_color_custom="#536AB0" font_color_preset="White" z-index="5">
+                <text_content>When is mom coming home?</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="100px"/>
+                    <position direction="move_to_the_right" value_in_pixels="90px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text balloon_styles="speech_left" font_size="24px" z-index="7">
+                <text_content>Is it tonight?</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="150px"/>
+                    <position direction="move_to_the_right" value_in_pixels="250px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="0"/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/room/dinner_table_items.png" alt="Dinner table setting">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="140px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/hardwood.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-bottom"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="580px" border-style="solid" border-width="8px" border-side="bottom" border-color="black">
+            <text balloon_styles="speech_bottom" font_size="28px" width="400px" z-index="3">
+                <text_content>Well, Elizabeth, your mom has been sick for a long time now. Her condition is complicated, 
+                    and I wish I could tell you when she’ll come back home, but I can’t.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="20px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_left" font_size="28px" width="400px" z-index="3">
+                <text_content>Doctor Richardson found something, so mom will be having surgery tonight. I need to go back to the hospital.</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="250px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="-200"/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/characters/father/father_turned.png" alt="The father" z-index="2">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="200px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/room/poster.jpg" alt="A decorative poster" z-index="1">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="300px"/>
+                    <position direction="move_upwards" value_in_pixels="650px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/living_room_repeat.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene height="900px" background_color_custom="#A4353F">
+            <text balloon_styles="speech_bottom" font_size="24px" z-index="2">
+                <text_content>Surgery...? Is mom... okay? Can we come?<new_line/>I want to be there for mom.</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="160px"/>
+                    <position direction="move_downwards" value_in_pixels="240px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_bottom" font_size="20px" z-index="2">
+                <text_content>Yeah, I want to go too.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="220px"/>
+                    <position direction="move_to_the_right" value_in_pixels="280px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="0"/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/room/dinner_table_items_close_blur.png" alt="Dinner table items">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="165px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/hardwood.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-bottom"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="580px" border-width="8px" border-style="solid" border-side="top" border-color="black">
+            <text balloon_styles="speech_bottom" font_size="28px" width="400px" z-index="3">
+                <text_content>I'm sorry but you both have school tomorrow. Elizabeth, I need you to take care of James tonight.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="20px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/characters/father/father.png" alt="The father" z-index="2">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/room/poster.jpg" alt="A decorative poster" z-index="1">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="300px"/>
+                    <position direction="move_upwards" value_in_pixels="450px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/living_room_repeat.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene height="900px" border-width="8px" border-style="solid" border-side="bottom" border-color="black" background_color_custom="#A4353F">
+            <text balloon_styles="speech_bottom" width="400px" font_size="26px" z-index="4">
+                <text_content><bold>No!</bold> I need to be there for mom. It's not fair that you're always leaving us at home. We love mom just as much as <bold>you!</bold></text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="170px"/>
+                    <position direction="move_to_the_right" value_in_pixels="130px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade opacity="0.4"/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/room/dinner_table_items_close_blur.png" alt="Dinner table items">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="165px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/hardwood.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-bottom"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="580px" border-width="8px" border-style="solid" border-side="bottom" border-color="black">
+            <text balloon_styles="speech_bottom" font_size="28px" width="400px" z-index="3">
+                <text_content>Elizabeth, this isn't a negotiation, you're staying at home and you're taking care of your brother. </text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="20px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_bottom" font_size="28px" width="400px" z-index="3">
+                <text_content>I need you, as the <italic>adult you're becoming</italic>, to take care of your brother. I know it's a lot to ask for, but I know you can handle it. </text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="20px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/characters/father/father.png" alt="The father" z-index="2">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/room/poster.jpg" alt="A decorative poster" z-index="1">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="300px"/>
+                    <position direction="move_upwards" value_in_pixels="450px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/living_room_repeat.jpg" repeat="repeat"></background_image>
+        </scene>
+        <scene height="900px" background_color_custom="#A4353F">
+            <text balloon_styles="speech_bottom" font_size="22px" z-index="3">
+                <text_content>Hmph. Okay, I'll watch Jimmy.</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="80px"/>
+                    <position direction="move_downwards" value_in_pixels="240px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_bottom" font_size="11px" z-index="3">
+                <text_content>I don’t need to be watched, I can tie my shoes by myself...</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="260px"/>
+                    <position direction="move_to_the_right" value_in_pixels="310px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_left" font_size="11px" z-index="4">
+                <text_content>...they aren’t even Velcro.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="300px"/>
+                    <position direction="move_to_the_right" value_in_pixels="370px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/room/dinner_table_items_close_blur.png" alt="Dinner table items">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="175px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/hardwood.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-bottom"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene border-style="solid" border-width="8px" border-side="top" border-color="black" height="730px" background_color_custom="#A4353F">
+            <text balloon_styles="speech_bottom" font_size="28px" width="400px" z-index="2">
+                <text_content>Elizabeth, I know you're mad, but you're helping out the family more than you know. I love you two very much.</text_content>
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="400px"/>
+                    <preset_position horizontal="right"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="-500"/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/final_story/room/main_door_light.png" alt="The door" z-index="1">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="250px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/characters/father/father_standing.png" alt="The father" z-index="2">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="1000px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="500">
+                        <fly_to_the_right in_pixels="400px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <!--<background_image source="images/final_story/living_room_repeat.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-top"/>
+                </background_position>
+            </background_image>-->
+        </scene>
+        <scene height="300px" background_color_preset="Black"></scene>
+        <scene background_color_preset="Black" height="500px">
+            <image source="images/final_story/1104.jpg" alt="A digital clock that reads 11:04">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+        </scene>
+        <scene>
+            <text balloon_styles="speech_bottom" font_size="22px">
+                <text_content>Liz, I can't sleep. I miss mom.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="10px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/characters/jim/cant_sleep.png" alt="Jimmy is laying in bed restless" z-index="2">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/bed_close.jpg" repeat="repeat">
+                <background_position>
+                    <bg_preset position_presets="center-top"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="857px">
+            <image source="images/final_story/room/bedroom_items.png" alt="A couple of items in the room">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text balloon_styles="speech_bottom" font_size="14px">
+                <text_content>Well get used to it, she's never coming back.</text_content>
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="100px"/>
+                    <position direction="move_upwards" value_in_pixels="550px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_bottom" font_size="14px">
+                <text_content>Huh? What do you mean?</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="600px"/>
+                    <position direction="move_to_the_right" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <background_image source="images/final_story/room/bedroom_normal.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-top"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="857px">
+            <image source="images/final_story/room/bedroom_items.png" alt="A couple of items in the room">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text balloon_styles="speech_bottom" font_size="14px" width="350px">
+                <text_content>She's going to die in there. She's been in there for so long, and did you see all those machines? It'll just be us and dad soon.</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="570px"/>
+                    <position direction="move_to_the_left" value_in_pixels="50px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_bottom" font_size="24px" width="380px">
+                <text_content>No! That's not true! She'll get better and come home soon, that's what dad said.</text_content>
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="400px"/>
+                    <position direction="move_upwards" value_in_pixels="650px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <background_image source="images/final_story/room/bedroom_normal.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-top"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene background_color_custom="#1C2127">
+            <text background_color_custom="#536AB0" font_color_preset="White" balloon_styles="speech_bottom" font_size="26px">
+                <text_content><bold>SHE'S DYING JIM! YOU'RE TOO YOUNG TO GET IT,</bold><new_line/><bold>BUT ONCE SHE DIES SHE'LL BE GONE FOREVER!</bold></text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/characters/liz/liz_yelling.png" alt="Liz yelling at Jim">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+        </scene>
+        <scene height="700px">
+            <image source="images/final_story/characters/jim/cant_sleep.png" alt="Jimmy is laying in bed upset">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/teardrop_left.png" alt="A tear drop from Jim" z-index="2">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="375px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="300" opacity="0.3">
+                        <fly_downwards in_pixels="50px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <background_image source="images/final_story/repeating_bg/bed_close.jpg" repeat="repeat">
+                <background_position>
+                    <bg_preset position_presets="center-top"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="857px">
+            <text>
+                <text_content>Jim running out.</text_content>
+            </text>
+            <image source="images/final_story/room/bedroom_items.png" alt="A couple of items in the room">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/characters/jim/jim_running_lg.png" alt="Jim is running out of the house">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/room/bedroom_normal.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-top"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="730px">
+            <image source="images/final_story/characters/jim/jim_running_blur.png" alt="Jim running towards a tree">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="640px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="500" offset="-200">
+                        <fly_to_the_right in_pixels="400px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/tree.png" alt="A tree">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                    <position direction="move_upwards" value_in_pixels="250px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/hill_dusk_bl.png" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-bottom" fit_width="no"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="735px" border-color="#000" border-side="bottom" border-style="solid" border-width="8px">
+            <text balloon_styles="speech_bottom" font_size="26px" z-index="5">
+                <text_content>I'm sorry, Jimmy. I'm sure mom will get better. I'm just mad.</text_content>
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="100px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/tree_stump.png" alt="The tree stump">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="70px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/characters/jim/holding_knees_sm.png" alt="James is holding his knees, upset">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                    <position direction="move_upwards" value_in_pixels="500px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/characters/liz/liz_sitting.png" alt="Liz is sitting next to Jim">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="1130px"/>
+                    <position direction="move_to_the_left" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/repeating_bg/dusk_bg.jpg" repeat="repeat-x"></background_image>
+        </scene>
+        <scene height="730px">
+            <image source="images/final_story/stars/single_star.png" alt="A single star">
+                <image_scrolling_animation>
+                    <spin rotation_in_radians="720" opacity="0" offset="-100px"/>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/characters/jim/jim_running_blur.png" alt="Jim sitting" z-index="5" flip="horizontal">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="208px"/>
+                    <position direction="move_downwards" value_in_pixels="573px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/tree.png" alt="A tree">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                    <position direction="move_downwards" value_in_pixels="325px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/characters/liz/liz_sitting_sm.png" alt="Liz sitting" z-index="5">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="290px"/>
+                    <position direction="move_to_the_right" value_in_pixels="184px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/hill_dusk_bl.png" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-bottom" fit_width="no"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene height="500px" background_color_custom="#33496E">
+            <image source="images/final_story/tree_stump_top.png" alt="The top of the tree stump">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text balloon_styles="speech_bottom" font_size="22px" z-index="2" background_color_custom="#FF8009" font_color_preset="White">
+                <text_content>What happens when people die?</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="400px"/>
+                    <position direction="move_to_the_right" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text background_color_custom="#536AB0" font_color_preset="White" balloon_styles="speech_bottom" font_size="26px">
+                <text_content>Dad said that if you're good, you go to a better place.</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="170px"/>
+                    <position direction="move_to_the_left" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/firefly.png" alt="A lightning bug">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="350px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="500" opacity="0.3">
+                        <fly_upwards_to_the_left>
+                            <fly_upwards in_pixels="50px"/>
+                            <fly_to_the_left in_pixels="30px"/>
+                        </fly_upwards_to_the_left>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+        </scene>
+        <scene height="500px" background_color_custom="#33496E">
+            <image source="images/final_story/tree_stump_middle.png" alt="The middle of the tree stump">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="4px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text balloon_styles="speech_bottom" font_size="22px" z-index="2" background_color_custom="#FF8009" font_color_preset="White" width="50px" text-align="center">
+                <text_content>...</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="330px"/>
+                    <position direction="move_to_the_right" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text balloon_styles="speech_bottom" font_size="22px" z-index="2" background_color_custom="#FF8009" font_color_preset="White">
+                <text_content>Mom would go to the best place in the world! <new_line/>A place with ice cream mountains and lollipop trees everywhere!</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="230px"/>
+                    <position direction="move_to_the_right" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <image source="images/final_story/firefly.png" alt="A lightning bug">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="350px"/>
+                    <preset_position horizontal="right"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="500" opacity="0.7">
+                        <fly_downwards_to_the_right>
+                            <fly_downwards in_pixels="100px"/>
+                            <fly_to_the_right in_pixels="20px"/>
+                        </fly_downwards_to_the_right>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/firefly.png" alt="A lightning bug">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="400px"/>
+                    <position direction="move_upwards" value_in_pixels="150px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="500" opacity="0">
+                        <fly_downwards_to_the_right>
+                            <fly_downwards in_pixels="100px"/>
+                            <fly_to_the_right in_pixels="140px"/>
+                        </fly_downwards_to_the_right>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+        </scene>
+        <scene height="500px" background_color_custom="#33496E">
+            <image source="images/final_story/characters/jim/closeup2.png" alt="Jim" z-index="2">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="250px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/tree_stump_bottom.png" alt="The tree stump">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="621px"/>
+                    <position direction="move_to_the_right" value_in_pixels="14px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/characters/liz/liz_sitting_lg.png" alt="Liz is sitting next to Jim">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="1120px"/>
+                    <position direction="move_to_the_left" value_in_pixels="400px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+        </scene>
+        <scene border-color="black" border-side="top" border-style="solid" border-width="8px" height="900px">
+            <text balloon_styles="speech_left" font_size="26px" background_color_custom="#536AB0" font_color_preset="White" z-index="3">
+                <text_content>And there would be cotton candy clouds... and... and... chocolate rivers!</text_content>
+            </text>
+            <image source="images/final_story/ice_cream_mtn_sm.jpg" alt="The children day dreaming of the ice cream mountain">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="120px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+        </scene>
+        <scene height="500px" background_color_custom="#33496E">
+            <image source="images/final_story/tree_stump_middle.png" alt="The middle of the tree stump">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="4px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text balloon_styles="speech_bottom" font_size="24px">
+                <text_content>Hahahaha.</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="200px"/>
+                    <position direction="move_to_the_left" value_in_pixels="400px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="speech_bottom" font_size="24px">
+                <text_content>Hahahahahaha.</text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="300px"/>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+        </scene>
+        <scene height="500px" background_color_custom="#33496E">
+            <image source="images/final_story/characters/jim/closeup2.png" alt="Jim" z-index="2">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="250px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/tree_stump_bottom.png" alt="The tree stump">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="621px"/>
+                    <position direction="move_to_the_right" value_in_pixels="14px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/characters/liz/liz_sitting_lg.png" alt="Liz is sitting next to Jim">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="1120px"/>
+                    <position direction="move_to_the_left" value_in_pixels="400px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+        </scene>
+        <scene height="730px">
+            <image source="images/final_story/stars/single_star.png" alt="A single star">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="730px"/>
+                    <position direction="move_to_the_right" value_in_pixels="300px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly duration="1000">
+                        <fly_downwards_to_the_right>
+                            <fly_downwards in_pixels="730px"/>
+                            <fly_to_the_right in_pixels="300px"/>
+                        </fly_downwards_to_the_right>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/tree.png" alt="A tree">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                    <position direction="move_upwards" value_in_pixels="380px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/stars/smoke_cloud.png" alt="A cloud of smoke caused from the fallen star">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="581px"/>
+                    <position direction="move_to_the_right" value_in_pixels="197px"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly opacity="0">
+                        <fly_upwards in_pixels="200px"/>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <image source="images/final_story/characters/jim/jim_running_blur.png" alt="Jim sitting" z-index="5" flip="horizontal">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="208px"/>
+                    <position direction="move_upwards" value_in_pixels="50px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <image source="images/final_story/characters/liz/liz_sitting_sm.png" alt="Liz sitting" z-index="5">
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="80px"/>
+                    <position direction="move_to_the_right" value_in_pixels="184px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <text balloon_styles="speech_bottom" font_size="24px">
+                <text_content><bold>What is that?!</bold></text_content>
+                <positioning>
+                    <position direction="move_upwards" value_in_pixels="300px"/>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <background_image source="images/final_story/hill_dusk_bl.png" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-bottom" fit_width="no"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene background_color_custom="#121011" height="731px">
+            <image source="images/final_story/ice_crater_small.png" alt="A crater created by the falling star">
+                <positioning>
+                    <position direction="move_downwards" value_in_pixels="300px"/>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+            <background_image source="images/final_story/ice_crater_repeat.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-top"/>
+                </background_position>
+            </background_image>
+        </scene>
+        <scene background_color_preset="Black">
+            <text balloon_styles="speech_left" background_color_custom="#536AB0" font_color_preset="White" font_size="24px">
+                <text_content>Jimmy, wait! Don't touch that!</text_content>
+            </text>
+            <image source="images/final_story/characters/jim/running_away.jpg" alt="Jim is running towards the crater">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+        </scene>
+        <scene></scene>
+        <scene></scene>
+        <scene background_color_preset="Black">
+            <image source="images/final_story/characters/hands_star_2.jpg" alt="A hand holding a star">
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </image>
+        </scene>
+    </story>
+</digital_story>

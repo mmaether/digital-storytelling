@@ -1,0 +1,864 @@
+/*DTD stuff
+<!--It's important that you remove all dashes (-) from the css property names and use camelCase for GreenSock elements-->
+<!ENTITY % styles
+    "top CDATA #IMPLIED
+    left CDATA #IMPLIED
+    bottom CDATA #IMPLIED
+    right CDATA #IMPLIED
+    opacity CDATA #IMPLIED
+    letter-spacing CDATA #IMPLIED
+    font-size CDATA #IMPLIED
+    margin CDATA #IMPLIED
+    marginTop CDATA #IMPLIED
+    marginLeft CDATA #IMPLIED
+    marginRight CDATA #IMPLIED
+    marginBottom CDATA #IMPLIED
+    
+    backgroundColor CDATA #IMPLIED
+    background CDATA #IMPLIED
+    background-repeat CDATA #IMPLIED
+    background-size CDATA #IMPLIED
+    background-image CDATA #IMPLIED
+    
+    color CDATA #IMPLIED
+    height CDATA #IMPLIED
+    width CDATA #IMPLIED
+    border-radius CDATA #IMPLIED
+    box-shadow CDATA #IMPLIED
+    border CDATA #IMPLIED
+    
+    text-shadow CDATA #IMPLIED
+    word-wrap CDATA #IMPLIED
+    text-wrap CDATA #IMPLIED
+    font-style (normal|italic|oblique) #IMPLIED
+    font-weight (normal|bold|100|200|300|400|500|600|700|800|900) #IMPLIED
+    
+    rotate CDATA #IMPLIED
+    translate CDATA #IMPLIED
+    translateX CDATA #IMPLIED
+    translateY CDATA #IMPLIED
+    scale CDATA #IMPLIED
+    scaleX CDATA #IMPLIED
+    scaleY CDATA #IMPLIED
+    skew CDATA #IMPLIED
+    skewX CDATA #IMPLIED
+    skewY CDATA #IMPLIED
+    matrix CDATA #IMPLIED
+    
+    transition CDATA #IMPLIED">
+    
+    
+    
+    <!-- 
+    Make sure to include: 
+    -moz-border-radius
+    @font-face?
+    -moz for transition: http://www.w3schools.com/css3/css3_transitions.asp
+    Might not need matrix
+    
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg); /* IE 9 */
+    -webkit-transform: rotate(30deg); /* Safari and Chrome */
+    -o-transform: rotate(30deg); /* Opera */
+    -moz-transform: rotate(30deg); /* Firefox */
+    http://www.w3schools.com/css3/css3_2dtransforms.asp
+    -->*/
+    
+
+	/*Mixed content source: 
+	http://stackoverflow.com/questions/4630611/how-to-get-the-innerhtml-of-a-xml-document-ajax*/
+	
+/* ============================================================================================================================
+== OVAL SPEECH BUBBLE (more CSS3)
+** ============================================================================================================================ */
+
+
+/*<blockquote class="oval-speech">
+	<p>This is a blockquote that is styled to look like a speech bubble</p>
+</blockquote>*/
+.oval-speech {
+	position:relative;
+	width:270px;
+	padding:50px 40px;
+	margin:1em auto 50px;
+	text-align:center;
+	color:#fff; 
+	background:#5a8f00;
+	/* css3 */
+	background:-webkit-gradient(linear, 0 0, 0 100%, from(#b8db29), to(#5a8f00));
+	background:-moz-linear-gradient(#b8db29, #5a8f00);
+	background:-o-linear-gradient(#b8db29, #5a8f00);
+	background:linear-gradient(#b8db29, #5a8f00);
+	/*
+	NOTES:
+	-webkit-border-radius:220px 120px; // produces oval in safari 4 and chrome 4
+	-webkit-border-radius:220px / 120px; // produces oval in chrome 4 (again!) but not supported in safari 4
+	Not correct application of the current spec, therefore, using longhand to avoid future problems with webkit corrects this
+	*/
+	-webkit-border-top-left-radius:220px 120px;
+	-webkit-border-top-right-radius:220px 120px;
+	-webkit-border-bottom-right-radius:220px 120px;
+	-webkit-border-bottom-left-radius:220px 120px;
+	-moz-border-radius:220px / 120px;
+	border-radius:220px / 120px;
+}
+
+.oval-speech p {font-size:1.25em;}
+
+/* creates part of the curve */
+.oval-speech:before {
+	content:"";
+	position:absolute;
+	z-index:-1;
+	bottom:-30px;
+	right:50%;
+	height:30px;
+	border-right:60px solid #5a8f00;
+	background:#5a8f00; /* need this for webkit - bug in handling of border-radius */
+	/* css3 */
+	-webkit-border-bottom-right-radius:80px 50px;
+	-moz-border-radius-bottomright:80px 50px;
+	border-bottom-right-radius:80px 50px;
+	/* using translate to avoid undesired appearance in CSS2.1-capabable but CSS3-incapable browsers */
+	-webkit-transform:translate(0, -2px);
+	-moz-transform:translate(0, -2px);
+	-ms-transform:translate(0, -2px);
+	-o-transform:translate(0, -2px);
+	transform:translate(0, -2px);
+}
+
+/* creates part of the curved pointy bit */
+.oval-speech:after {
+	content:"";
+	position:absolute;
+	z-index:-1;
+	bottom:-30px;
+	right:50%;
+	width:60px;
+	height:30px;
+	background:#fff;
+	/* css3 */
+	-webkit-border-bottom-right-radius:40px 50px; 
+	-moz-border-radius-bottomright:40px 50px; 
+	border-bottom-right-radius:40px 50px; 
+	/* using translate to avoid undesired appearance in CSS2.1-capabable but CSS3-incapable browsers */
+	-webkit-transform:translate(-30px, -2px);
+	-moz-transform:translate(-30px, -2px);
+	-ms-transform:translate(-30px, -2px);
+	-o-transform:translate(-30px, -2px);
+	transform:translate(-30px, -2px);
+}
+
+/* Not a very good box */
+.speech {
+	margin: 50px;
+	padding: 50px;
+	position: relative;
+	display: inline-block;
+	border: 2px solid black;
+	background: white;
+}
+.speech:after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 20px;
+	border-top: 20px solid blue;
+	border-top-color: inherit; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent; 
+}
+
+
+
+
+/*Duplicate in case of background color 
+.Alice_Blue {}
+.Antique_White {}
+.Aqua {}
+.Aquamarine {}
+.Azure {}
+.Beige {}
+.Bisque {}
+.Black {}
+.Blanched_Almond {}
+.Blue {}
+.Blue_Violet {}
+.Brown {} 
+.Burly_Wood {}
+.Cadet_Blue {}
+.Chartreuse {}
+.Chocolate {}
+.Coral {}
+.Cornflower_Blue {}
+.Cornsilk {}
+.Crimson {}
+.Cyan {}
+.Dark_Blue {}
+.Dark_Cyan {}
+.Dark_Golden_Rod {}
+.Dark_Gray {}
+.Dark_Grey {}
+.Dark_Green {}
+.Dark_Khaki {}
+.Dark_Magenta {}
+.Dark_Olive_Green {}
+.Dark_Orange {}
+.Dark_Orchid {}
+.Dark_Red {}
+.Dark_Salmon {}
+.Dark_Sea_Green {}
+.Dark_Slate_Blue {}
+.Dark_Slate_Gray {}
+.Dark_Slate_Grey {}
+.Dark_Turqoise {}
+.Dark_Violet {}
+.Deep_Pink  {}
+.Deep_Sky_Blue {}
+.Dim_Gray {}
+.Dim_Grey {}
+.Dodger_Blue {}
+.Fire_Brick {}
+.Floral_White {}
+.Forest_Green {}
+.Fuchsia {}
+.Gainsboro {}
+.Ghost_White {} 
+.Gold {}
+.Golden_Rod {}
+.Gray {}
+.Grey {}
+.Green {}
+.Green_Yellow {}
+.Honey_Dew {}
+.Hot_Pink {}
+.Indian_Red {}
+.Indigo {}
+.Ivory {}
+.Khaki {}
+.Lavender {}
+.Lavender_Blush {}
+.Lawn_Green {}
+.Lemon_Chiffon {}
+.Light_Blue {}
+.Light_Coral{}
+.Light_Cyan {}
+.Light_Golden_Rod_Yellow {}
+.Light_Gray {}
+.Light_Grey {}
+.Light_Green {}
+.Light_Pink {}
+.Light_Salmon {} 
+.Light_Sea_Green {}
+.Light_Sky_Blue {}
+.Light_Slate_Gray {}
+.Light_Slate_Grey {}
+.Light_Steel_Blue {}
+.Light_Yellow {}
+.Lime {}
+.Lime_Green {}
+.Linen {}
+.Magenta {}
+.Maroon {}
+.Medium_Aqua_Marine {}
+.Medium_Blue {}
+.Medium_Orchid {}
+.Medium_Purple {}
+.Medium_Sea_Green {}
+.Medium_Slate_Blue {}
+.Medium_Spring_Green {}
+.Medium_Turquoise {}
+.Medium_Violet_Red {}
+.Midnight_Blue {}
+.Mint_Cream {}
+.Misty_Rose {}
+.Moccasin {}
+.Navajo_White {}
+.Navy {}
+.Old_Lace {}
+.Olive {}
+.Olive_Drab {}
+.Orange {}
+.Orange_Red {}
+.Orchid {}
+.Pale_Golden_Rod {}
+.Pale_Green {}
+.Pale_Turquoise {}
+.Pale_Violet_Red {}
+.Papaya_Whip {} 
+.Peach_Puff {}
+.Peru {}
+.Pink {}
+.Plum {}
+.Powder_Blue {}
+.Purple {}
+.Red {}
+.Rosy_Brown {}
+.Royal_Blue {}
+.Saddle_Brown {}
+.Salmon {}
+.Sandy_Brown {}
+.Sea_Green{}
+.Sea_Shell {}
+.Sienna {}
+.Silver {}
+.SkyBlue {}
+.Slate_Blue {}
+.Slate_Gray {}
+.Slate_Grey {}
+.Snow {}
+.Spring_Green {}
+.Steel_Blue {}
+.Tan {}
+.Teal {}
+.Thistle {}
+.Tomato {}
+.Turquoise {}
+.Violet {}
+.Wheat {}
+.White {}
+.White_Smoke {}
+.Yellow {}
+.Yellow_Green {} */
+
+
+
+
+/*Old loading style*/
+#loading{
+	margin: 0 auto;
+	padding-top: 100px;
+	display: table;
+	height: 100%;
+}
+#loading img{
+	margin: 0 auto;
+}
+#loading h2{
+	margin: 35px auto 0 auto;
+	display: table;
+}
+
+
+
+/*Loading animation - 4 balls rolling back and forth*/
+
+/*The HTML:
+<div id="loading">
+	<div id="followingBallsG_1" class="followingBallsG"> </div>
+	<div id="followingBallsG_2" class="followingBallsG"> </div>
+	<div id="followingBallsG_3" class="followingBallsG"> </div>
+	<div id="followingBallsG_4" class="followingBallsG"> </div>
+	<h2>Loading...</h2>
+</div>*/
+		
+		
+#loading{
+	position:relative;
+	width:400px;
+	height:31px;
+	margin: 0 auto;
+	padding-top: 100px;
+}
+
+.followingBallsG{
+	background-color:#000000;
+	position:absolute;
+	top:0;
+	left:0;
+	width:31px;
+	height:31px;
+	-moz-border-radius:16px;
+	-moz-animation-name:bounce_followingBallsG;
+	-moz-animation-duration:2.7s;
+	-moz-animation-iteration-count:infinite;
+	-moz-animation-direction:linear;
+	-webkit-border-radius:16px;
+	-webkit-animation-name:bounce_followingBallsG;
+	-webkit-animation-duration:2.7s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-direction:linear;
+	-ms-border-radius:16px;
+	-ms-animation-name:bounce_followingBallsG;
+	-ms-animation-duration:2.7s;
+	-ms-animation-iteration-count:infinite;
+	-ms-animation-direction:linear;
+	-o-border-radius:16px;
+	-o-animation-name:bounce_followingBallsG;
+	-o-animation-duration:2.7s;
+	-o-animation-iteration-count:infinite;
+	-o-animation-direction:linear;
+	border-radius:16px;
+	animation-name:bounce_followingBallsG;
+	animation-duration:2.7s;
+	animation-iteration-count:infinite;
+	animation-direction:linear;
+	margin-top: 100px;
+}
+
+#followingBallsG_1{
+	-moz-animation-delay:0s;
+	-webkit-animation-delay:0s;
+	-ms-animation-delay:0s;
+	-o-animation-delay:0s;
+	animation-delay:0s;
+}
+
+#followingBallsG_2{
+	-moz-animation-delay:0.27s;
+	-webkit-animation-delay:0.27s;
+	-ms-animation-delay:0.27s;
+	-o-animation-delay:0.27s;
+	animation-delay:0.27s;
+}
+
+#followingBallsG_3{
+	-moz-animation-delay:0.54s;
+	-webkit-animation-delay:0.54s;
+	-ms-animation-delay:0.54s;
+	-o-animation-delay:0.54s;
+	animation-delay:0.54s;
+}
+
+#followingBallsG_4{
+	-moz-animation-delay:0.81s;
+	-webkit-animation-delay:0.81s;
+	-ms-animation-delay:0.81s;
+	-o-animation-delay:0.81s;
+	animation-delay:0.81s;
+}
+
+@-moz-keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:#000000;
+	}
+
+	50%{
+		left:369px;
+		background-color:#FFFFFF;
+	}
+
+	100%{
+		left:0px;
+		background-color:#000000;
+	}
+}
+
+@-webkit-keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:#000000;
+	}
+
+	50%{
+		left:369px;
+		background-color:#FFFFFF;
+	}
+
+	100%{
+		left:0px;
+		background-color:#000000;
+	}
+
+}
+
+@-ms-keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:#000000;
+	}
+
+	50%{
+		left:369px;
+		background-color:#FFFFFF;
+	}
+
+	100%{
+		left:0px;
+		background-color:#000000;
+	}
+}
+
+@-o-keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:#000000;
+	}
+
+	50%{
+		left:369px;
+		background-color:#FFFFFF;
+	}
+
+	100%{
+		left:0px;
+		background-color:#000000;
+	}
+}
+
+@keyframes bounce_followingBallsG{
+	0%{
+		left:0px;
+		background-color:#000000;
+	}
+
+	50%{
+		left:369px;
+		background-color:#FFFFFF;
+	}
+
+	100%{
+		left:0px;
+		background-color:#000000;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+			/*Failed URL changes
+			var pathName = location.pathname + "/page" + page;
+			var urlProto = window.location.protocol;
+			var urlHost = window.location.host;
+			var urlPathName = window.location.pathname;
+			console.log("Proto: " + urlProto + ", host: " + urlHost + ", path name: " + urlPathName);
+			console.log("Total: " + urlProto + urlHost + urlPathName);
+			console.log("Full: " + location.pathname);
+			//this.preventDefault();
+			//page.preventDefault();*/
+			
+			/*
+			var pageNum = parseInt(page);
+			dynamicLoad(pageNum);
+
+			
+			
+			//get the link location that was clicked
+			pageurl = $(this).attr('href');
+			
+			//to change the browser URL to the given link location
+			if(pageurl!=window.location){
+			  window.history.pushState({path:pageurl},'',pageurl);
+			}
+			//stop refreshing to the page given in
+			return false;
+			
+			*/
+			
+			
+			
+			
+/*#audio{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	z-index: 2147483647;		/*highest z-index
+	
+	inline: display: table; padding-top: 11px;
+}*/
+
+.basic_shadow {
+	/*
+	filter: progid:DXImageTransform.Microsoft.DropShadow(OffX=2, OffY=4, Color=#000000);
+	progid:DXImageTransform.Microsoft.Chroma(Color=#1EFF5A)
+	background-color: #1EFF5A;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Chroma(Color=#1EFF5A) progid:DXImageTransform.Microsoft.DropShadow(Color=#000000, OffX=2, OffY=4)"; 
+	filter: glow(color=#000000,strength=0.3);
+	filter: glow(color=black,strength=5), alpha(opacity=70); /* now both will work
+	filter: shadow(Color=#000000, Direction=135, Strength=1);
+	filter: dropshadow(color=#000000, offx=2, offy=4);
+	filter: progid:DXImageTransform.Microsoft.Shadow(color=#0000FF,direction=45);
+	filter: Shadow(Color=black, Direction=130, Strength=1); /* IE Proprietary Filter
+	*/
+}
+.pagination a{
+	/*font-family: Times, 'Times New Roman', Georgia, Palatino;*/
+}
+
+/*#about {
+	margin: 0 auto;
+	display: table;
+	height: 100%;
+	padding: 300px 0 400px 0;
+}*/
+/*#about{
+	width: 100%;
+	padding: 0;
+}*/
+
+/*body, html, #container {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}*/
+
+html {
+	/*margin-bottom: 4em;*/
+	/*display:block;*/
+}
+
+
+
+/*Full screen toggle
+	Unsafe IE
+	var element = document.body; // Make the body go full screen.
+	var requestMethod = element.requestFullScreen || element.webkitRequestFullScreen || element.mozRequestFullScreen || element.msRequestFullScreen;
+	if (typeof window.ActiveXObject !== "undefined") { // Older IE.
+		var wscript = new ActiveXObject("WScript.Shell");
+		if (wscript !== null) {
+			wscript.SendKeys("{F11}");
+		}
+	}*/
+	
+/*modern browsers
+var viewFullScreen = document.getElementById("fullscreen-toggle");
+if (viewFullScreen) {
+	viewFullScreen.addEventListener("click", function () {
+		var docElm = document.documentElement;
+		if (docElm.requestFullscreen) {
+			docElm.requestFullscreen();
+			console.log("Fs");
+		}
+		else if (docElm.mozRequestFullScreen) {
+			docElm.mozRequestFullScreen();
+			console.log("Firefox");
+		}
+		else if (docElm.webkitRequestFullScreen) {
+			docElm.webkitRequestFullScreen();
+			console.log("Chrome");
+		}
+	}, false); 
+}
+
+
+/*document.fullscreenEnabled = document.fullscreenEnabled || document.mozFullScreenEnabled || document.documentElement.webkitRequestFullScreen;
+
+function requestFullscreen( element ) {
+  if ( element.requestFullscreen ) {
+	element.requestFullscreen();
+  } else if ( element.mozRequestFullScreen ) {
+	element.mozRequestFullScreen();
+  } else if ( element.webkitRequestFullScreen ) {
+	element.webkitRequestFullScreen( Element.ALLOW_KEYBOARD_INPUT );
+  }
+}
+
+	if ( document.fullscreenEnabled ) {
+	  requestFullscreen( document.documentElement );
+	}*/
+*/
+
+
+function requestFullscreen() {
+	//IE	
+	var isMSIE = /*@cc_on!@*/0;
+	if (isMSIE) {
+		window.open(document.URL, "fs", "fullscreen=yes")
+	}
+	
+	//modern browsers
+	var docElm = document.documentElement;
+	if (docElm.requestFullscreen) {
+		docElm.requestFullscreen();
+	}
+	else if (docElm.mozRequestFullScreen) {
+		docElm.mozRequestFullScreen();
+	}
+	else if (docElm.webkitRequestFullScreen) {
+		docElm.webkitRequestFullScreen();
+	}
+	
+	/*if (class = "fullscreen") {
+		change it to exit-fullscreen
+	}*/
+}
+
+
+function cancelFullscreen() {
+	var cancelFullScreen = document.getElementById("cancel-fullscreen");
+    if (cancelFullScreen) {
+        cancelFullScreen.addEventListener("click", function () {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            }
+            else if (document.mozCancelFullScreen) {
+                document.mozCancelFullScreen();
+            }
+            else if (document.webkitCancelFullScreen) {
+                document.webkitCancelFullScreen();
+            }
+        }, false);
+    }
+}
+
+
+
+//If there are any attributes for the texts grouping, add them to every text element.
+				if($(this).parent().get(0).attributes.length > 0) {
+					//cssStyling(textID, $(this).parent().get(0));
+					//console.log($(this).parent());
+				}
+				if($(this).parent().get(0).attributes) {
+				
+					/*$(xml).find("parent").each(function()
+					{
+						 alert($(this).clone().find("child").remove().end().text()+ "<br />");
+					});​*/
+				
+					//$(this).parent()'#parent > .block');
+					//$('#parent > .block').css({ border: '1px solid red' });
+					var xmlString;
+					var xmlObject= $(this).parent().get(0);
+					xmlString=(xmlObject.xml)?xmlObject.xml:(new XMLSerializer()).serializeToString(xmlObject);
+					var substr = xmlString.split('>');
+					var substr0 = substr[0] + ">";
+					//console.log(substr0);
+					//cssStyling(textID, substr[0]);
+					
+					$(this).each(function() {
+						//console.log($(this).clone().remove().end().text());
+						//var childName = $(this).children().nodeName();
+						//console.log(childName);
+						//console.log($(this).parent().remove().children());
+						//cssStyling(textID, $(this).parent().remove().children() );
+						//cssStyling(textID, $(this).parent().get(0).attributes);
+						//console.log("ID: " + textID);
+						//console.log($(this).parent().get(0));
+						//console.log("Attribute");
+					});
+				}
+				
+				
+				/*
+				var xmlString;
+				var xmlObject= this;
+				
+				while(xmlObject.nodeType!=1){xmlObject=xmlObject.nextSibling;}
+				xmlString=(xmlObject.xml)?xmlObject.xml:(new XMLSerializer()).serializeToString(xmlObject);
+				
+				//Get rid of "<text_content>"
+				xmlString = xmlString.replace("<text_content>", "");
+				xmlString = xmlString.replace("</text_content>", "");
+				
+				//Bold
+				if (xmlString.indexOf("<bold>") >= 0){
+				*/
+				
+				
+				
+function exitFullscreen() {
+	console.log("Exit?");
+	if (screenfull.enabled) {
+		screenfull.exit();
+		screenfull.onchange = function() {
+			$('#fullscreen-toggle').toggleClass('fullscreen exit-fullscreen');
+		}
+	}
+}
+
+
+
+
+
+/*.fullscreen {
+	background: url('../images/system/fullscreen-gray.png');	
+}
+.fullscreen:hover {
+	background: url('../images/system/fullscreen-white.png');	
+}
+.exit-fullscreen {
+	background: url('../images/system/exit-fullscreen-gray.png');
+}
+.exit-fullscreen:hover {
+	background: url('../images/system/exit-fullscreen-white.png');
+}*/
+
+
+
+//when user clicks toggle, toggle screen size
+function toggleFullscreen() {
+	console.log("Toggle function");
+	//if the browser allows fullscreen
+	if (screenfull.enabled) {
+		
+		//check if it's fullscreen or not
+		if (!screenfull.isFullscreen) {
+			screenfull.request();
+			//$('#fullscreen-toggle').toggleClass('fullscreen exit-fullscreen');
+			//$('#tooltip-fullscreen').attr("data-hint", "Exit Full Screen");	
+		}
+		else if (screenfull.isFullscreen) {
+			screenfull.exit();
+			//$('#fullscreen-toggle').toggleClass('fullscreen exit-fullscreen');
+			//$('#tooltip-fullscreen').attr("data-hint", "Full Screen");	
+		}
+		
+	} else {
+		// Ignore or do something else
+		//requestFullscreen();
+	}
+}
+
+
+
+//NEED THIS CODE to ensure the text div has an ID
+		if($(this).find('image_scrolling_animation')){
+			
+			//Insert CSS rules that are needed specifically for scrolling animations					
+			var scrollAnimationName = $(this).find('image_scrolling_animation').children().prop("nodeName");
+			
+			if(scrollAnimationName == "fly"){
+				//cssScriptArray.push("#" + imageID + "{ position: relative;}");
+				//cssScriptArray.push("\tposition: relative;");
+				//display: inline-block
+			}
+			if(scrollAnimationName == "spin"){
+				//cssScriptArray.push("#" + imageID + "{text-align: center;}");
+				//cssScriptArray.push("\ttext-align: center;");
+			}
+		}
+		
+		
+		
+		
+
+
+//need a function on ready to change the fullscreen icon properly
+/*$(document).ready(function() {
+	//if the browser allows fullscreen
+	if (screenfull.enabled) {
+		
+		//if it's not fullscreen
+		if (!screenfull.isFullscreen) {
+			$('#fullscreen-toggle').removeClass('exit-fullscreen');
+			$('#fullscreen-toggle').addClass('fullscreen');
+			$('#tooltip-fullscreen').attr("data-hint", "Exit Full Screen");	
+		}
+		//if it is fullscreen
+		else if (screenfull.isFullscreen) {
+			$('#fullscreen-toggle').removeClass('fullscreen');
+			$('#fullscreen-toggle').addClass('exit-fullscreen');
+			$('#tooltip-fullscreen').attr("data-hint", "Full Screen");	
+		}
+	}
+});*/
+
+
+//var rgb = $el.css('backgroundColor');
+		
+		/*//convert rgb to hex
+		var parts = rgb.match(/^rgb\((\d+),\s*(\d+),\s*(\d+)\)$/);
+		delete(parts[0]);
+		for (var i = 1; i <= 3; ++i) {
+			parts[i] = parseInt(parts[i]).toString(16);
+			if (parts[i].length == 1) parts[i] = '0' + parts[i];
+		}
+		//var color = '#' + parts.join('');*/
+		//console.log(color);

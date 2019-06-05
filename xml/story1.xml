@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE digital_story SYSTEM "file:/C:/Users/Mike%20Maether/Documents/RIT/capstone/xml-conversion/xml/story.dtd">
+<digital_story>
+    <about include_title_page="yes">
+        <title>Digital Storytelling Demo</title>
+        <subtitle>A quick page to demonstrate some of this tool's possibilities</subtitle>
+        <creators>
+            <creator creator_type="Creator" creator_name="Mike Maether"/>
+            <creator creator_type="Audio" creator_name="Creator 1" creators_website="http://www.google.com"/>
+            <creator creator_type="Author" creator_name="Creator 2"/>
+            <creator creator_type="Designer" creator_name="Creator 3"/>
+            <creator creator_type="Other" creator_name="Creator 4"/>
+        </creators>
+        <date month="April" day="8" year="2013"/>
+        <sources>
+            <source source_type="Audio" source_title="Untitled Stock Audio" source_creator="Unnamed"/>
+            <source source_type="Graphics" source_title="Ducks" source_creator="Rick Sparrow" source_link="http://www.google.com" source_notes="This is a hyperlink to Google"/>
+        </sources>
+        <other>Extra information goes here.</other>
+    </about>
+    <overall_style>
+        <overall_font font_family="Helvetica" font_color_preset="Black" background_color_custom="#EAEAEA"/>
+        <overall_spacing page_length="medium"/>
+        <paragraph_spacing/>
+        <control_bar show_day_night_mode_toggle="no"/>
+        <title_page_style/>
+        <audio autoplay="no" loop="yes">
+            <mp3_file href="audio/audio.mp3"/>
+            <ogg_file href="audio/audio.ogg"/>
+        </audio>
+        <favicon file_format=".gif" href="images/favicon.gif"/>
+        <page_length number_of_scenes_on_page="all"/>
+    </overall_style>
+    <story>
+        <scene>
+            <text font_size="26px" font_color_preset="White" background_color_preset="Dark_Blue" text_shadow="basic_shadow">
+                <text_content>This is a very basic demo to show the different animations that are available. It's a bit of a clutter, so I apologize for it.
+                The animations are also the smoothest in Chrome</text_content>
+            </text>
+        </scene>
+        <scene font_size="38px" background_color_preset="Light_Blue">
+            <text font_size="50px" padding-bottom="20px">
+                <text_content>Text Shadows:</text_content>
+            </text>
+            <text z-index="1" text_shadow="basic_shadow" font_color_preset="Blue" font_size="40px">
+                <text_content>Basic shadow</text_content>
+            </text>
+            <text z-index="1" text_shadow="close_and_heavy">
+                <text_content>Close and heavy</text_content>
+            </text>
+            <text z-index="1" text_shadow="double_shadow">
+                <text_content>Double shadow</text_content>
+            </text>
+            <text z-index="1" text_shadow="down_and_distant">
+                <text_content>Down and distant</text_content>
+            </text>
+            <text z-index="1" text_shadow="glowing">
+                <text_content>Glowing</text_content>
+            </text>
+            <text z-index="1" text_shadow="hard_shadow">
+                <text_content>Hard shadow</text_content>
+            </text>
+            <text text_shadow="letterpress">
+                <text_content>Letterpress</text_content>
+            </text>
+            <text  text_shadow="letterpress2">
+                <text_content>Letterpress 2</text_content>
+            </text>
+            <text text_shadow="multiple_light_sources">
+                <text_content>Multiple light sources</text_content>
+            </text>
+            <text text_shadow="soft_emboss">
+                <text_content>Soft emboss</text_content>
+            </text>
+            <text text_shadow="text_outline">
+                <text_content>Text outline</text_content>
+            </text>
+            <text text_shadow="text_outline2">
+                <text_content>Text outline 2</text_content>
+            </text>
+        </scene>
+        <scene font_size="32px">
+            <text font_size="50px">
+                <text_content>Basic text animations</text_content>
+            </text>
+            <text>
+                <text_content>Animation - fly down</text_content>
+                <text_scrolling_animation>
+                    <fly>
+                        <direction_in_pixels>
+                            <bottom>75px</bottom>
+                        </direction_in_pixels>
+                    </fly>
+                </text_scrolling_animation>
+            </text>
+            <text>
+                <text_content>Animation - Fly right</text_content>
+                <text_scrolling_animation>
+                    <fly>
+                        <direction_in_pixels>
+                            <right>75px</right>
+                        </direction_in_pixels>
+                    </fly>
+                </text_scrolling_animation>
+            </text>
+            <text>
+                <text_content>Animation - fly left</text_content>
+                <text_scrolling_animation>
+                    <fly>
+                        <direction_in_pixels>
+                            <left>75px</left>
+                        </direction_in_pixels>
+                    </fly>
+                </text_scrolling_animation>
+            </text>
+            <text padding-bottom="100px">
+                <text_content>Animation - fly up</text_content>
+                <text_scrolling_animation>
+                    <fly>
+                        <direction_in_pixels>
+                            <top>75px</top>
+                        </direction_in_pixels>
+                    </fly>
+                </text_scrolling_animation>
+            </text>
+            <text padding-bottom="100px">
+                <text_content>Animation - Fade</text_content>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text>
+                <text_content>Animation - scale text to be larger</text_content>
+                <text_scrolling_animation>
+                    <scale>
+                        <scale_from fontSize="12px"/>
+                        <scale_to fontSize="40px"/>
+                    </scale>
+                </text_scrolling_animation>
+            </text>
+            <text>
+                <text_content>Animation - scale text to be smaller</text_content>
+                <text_scrolling_animation>
+                    <scale>
+                        <scale_from fontSize="40px"/>
+                        <scale_to fontSize="12px"/>
+                    </scale>
+                </text_scrolling_animation>
+            </text>
+            <text>
+                <text_content>Animation - smush text spacing (doesn't work in Firefox)</text_content>
+                <text_scrolling_animation>
+                    <smush>
+                        <smush_from letter_spacing="20px"/>
+                        <smush_to letter_spacing="4px"/>
+                    </smush>
+                </text_scrolling_animation>
+            </text>
+            <text padding-bottom="100px">
+                <text_content>Animation - spin text</text_content>
+                <text_scrolling_animation>
+                    <spin rotation_in_radians="720"/>
+                </text_scrolling_animation>
+            </text>
+        </scene>
+        <scene border-color="black" border-side="top" border-style="solid" border-width="8px" font_size="38px">
+            <text font_size="50px">
+                <text_content>Advanced text animations</text_content>
+            </text>
+            <text padding-bottom="200px">
+                <text_content>You can also do multiple direction, e.g. bottom and right.</text_content>
+                <text_scrolling_animation>
+                    <fly>
+                        <direction_in_pixels>
+                            <right_bottom>
+                                <right>75px</right>
+                                <bottom>75px</bottom>
+                            </right_bottom>
+                        </direction_in_pixels>
+                    </fly>
+                </text_scrolling_animation>
+            </text>
+            <text padding-bottom="100px">
+                <text_content>You can add a fade effect to every animation (e.g. fly left)</text_content>
+                <text_scrolling_animation>
+                    <fly opacity="0">
+                        <direction_in_pixels>
+                            <left>75px</left>
+                        </direction_in_pixels>
+                    </fly>
+                </text_scrolling_animation>
+            </text>
+            <text>
+                <text_content>You can set the duration of the animation event, to make it last longer...</text_content>
+                <text_scrolling_animation>
+                    <fade duration="300"/>
+                </text_scrolling_animation>
+            </text>
+            <text padding-bottom="100px">
+                <text_content>...or occur more quickly</text_content>
+                <text_scrolling_animation>
+                    <fade duration="2"/>
+                </text_scrolling_animation>
+            </text>
+            <text>
+                <text_content>You can also make the animation trigger earlier...</text_content>
+                <text_scrolling_animation>
+                    <fade offset="-200"/>
+                </text_scrolling_animation>
+            </text>
+            <text>
+                <text_content>...or later</text_content>
+                <text_scrolling_animation>
+                    <fade offset="200"/>
+                </text_scrolling_animation>
+            </text>
+        </scene>
+        <scene font_color_preset="White" text_shadow="letterpress">
+            <text z-index="4" font_size="34px" text_shadow="basic_shadow">
+                <text_content>This div uses a background image.</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+            </text>
+            <text balloon_styles="thought" class="demo1" font_size="42px" font_family="Baskerville" background_color_preset="Aquamarine" z-index="20" text_shadow="letterpress" font_color_preset="Coral">
+                <text_content>This is a thought bubble with flying animation. opacity, text outline, coral font color, and even more text for automatic line break.</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fly opacity="0.2">
+                        <direction_in_pixels>
+                            <left>200</left>
+                        </direction_in_pixels>
+                    </fly>
+                </text_scrolling_animation>
+            </text>
+            <text font_size="26px" z-index="20" balloon_styles="speech_bottom" font_color_preset="Burly_Wood">
+                <text_content>Speech bubble pointing down - Different font <bold>color</bold>, center horizontal positioning, fade effect.</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <image source="images/tree.jpg" alt="Tree" z-index="3">
+                <positioning>
+                    <position direction="move_to_the_right" value_in_pixels="200px"/>
+                    <preset_position horizontal="left"/>
+                </positioning>
+                <image_scrolling_animation>
+                    <fly offset="200" duration="200px">
+                        <direction_in_pixels>
+                            <left>200</left>
+                        </direction_in_pixels>
+                    </fly>
+                </image_scrolling_animation>
+            </image>
+            <background_image source="images/sea_bg.jpg" repeat="repeat-x">
+                <background_position>
+                    <bg_preset position_presets="center-top"/>
+                </background_position>
+            </background_image>
+            
+        </scene>
+        <scene background_color_preset="Blue_Violet" font_color_preset="White" height="400">
+            <text font_size="42px" z-index="10">
+                <text_content>Spin text, right align, move text 20px left.</text_content>
+                <positioning>
+                    <position direction="move_to_the_left" value_in_pixels="20px"/>
+                    <preset_position horizontal="right"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <spin rotation_in_radians="720"/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>Scale text (also with opacities)</text_content>
+                <text_scrolling_animation>
+                    <scale>
+                        <scale_from fontSize="30px" opacity="0.3"/>
+                        <scale_to fontSize="50px" opacity="1"/>
+                    </scale>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>Scene div has a forced height of 400px.</text_content>
+            </text>                
+        </scene>
+        <scene font_size="28px">
+            <text z-index="1">
+                <text_content>Other features:</text_content>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text>
+                <text_content>Control bar: always on top of page, includes a audio player (if there is audio), pagination (if there are multiple page), 
+                day/night mode toggle (if activated), and a fullscreen toggle (always activated).</text_content>
+            </text>
+            <text z-index="1">
+                <text_content>Automatic creation of credits page.</text_content>
+            </text>
+            <text>
+                <text_content>Overall page styles - you can set styles that apply to every element (unless overridden).</text_content>
+            </text>
+            <text>
+                <text_content>Favicons are also supported, including GIF support (although all browsers won't render GIF animations).</text_content>
+            </text>
+            <text z-index="1">
+                <text_content>And finally parsing mixed content. This includes <new_line/>new lines, <bold>bold</bold>, <italic>italic</italic>, 
+                <bold_italic>bold and italic</bold_italic>, <font-color font_color_preset="Cadet_Blue">different font colors</font-color>, 
+                <font-size font_size="38px">changing font sizes</font-size>, <underline>underlining</underline>, <extra_space/><extra_space/><extra_space/>
+                <extra_space/><extra_space/><extra_space/>extra spaces, <horizontal_rule/>a horizontal rule, and finally <tab/>a tab. <new_line/>
+                <bold>And all of it can be used with animations.</bold></text_content>
+                <text_scrolling_animation>
+                    <spin rotation_in_radians="360"/>
+                </text_scrolling_animation>
+            </text>
+        </scene>
+    </story>
+</digital_story>

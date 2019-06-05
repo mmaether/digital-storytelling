@@ -1,0 +1,1546 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    height: auto !important;
+    min-height: 100%;
+    padding-bottom: 100px;
+}
+#story {
+    margin-top: 100px;
+}
+#story-title {
+    display: block;
+    margin: auto;
+}
+#about-content {
+    display: table;
+    margin: 0 auto;
+    padding: 200px 0 400px;
+}
+#about h1 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+#about h2 {
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+#about h3 {
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+#audio {
+    display: table;
+    float: left;
+    position: inherit;
+    top: 11px;
+}
+.center-image {
+    display: block;
+    margin: auto;
+}
+.note {
+    margin-left: 1em;
+}
+p {
+    margin: 0;
+}
+#loading {
+    display: table;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+#loading-text {
+    display: table;
+    margin: 55px auto 0;
+}
+footer {
+    background: url("../images/footer-bg.png") repeat scroll 0 0 #474747;
+    color: #222222;
+    font-size: 26px;
+    padding: 20px 0;
+}
+footer a {
+    text-decoration: none;
+}
+footer a:link {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    color: #E3E3E3;
+}
+footer a:hover {
+    border-bottom: 1px solid #FFFFFF;
+    color: white;
+}
+footer a:visited {
+    color: #C4C4C4;
+}
+footer h2 {
+    margin-bottom: 0;
+    text-align: center;
+}
+footer h3 {
+    border-bottom: 1px solid #222222;
+    margin-bottom: 0;
+}
+footer hr {
+    border-color: #222222;
+}
+#credits {
+    display: table;
+    margin: 0 auto;
+}
+#credits p {
+    display: table;
+}
+#date-credits {
+    font-size: 18px;
+    margin-top: 32px;
+    text-align: center;
+}
+#fullscreen-toggle {
+    background-repeat: no-repeat;
+    border: medium none;
+    height: 32px;
+    margin-right: 10px;
+    width: 32px;
+}
+.fullscreen {
+    background: url("../images/system/fullscreen.png") repeat scroll 0 0 transparent;
+}
+#toggle-fullscreen {
+    float: left;
+}
+.exit-fullscreen {
+    background: url("../images/system/exit-fullscreen.png") repeat scroll 0 0 transparent;
+}
+#control-bar {
+    background-color: #2D2D2D;
+    box-shadow: 0 3px 5px #666666;
+    color: #222222;
+    height: 44px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+#controls {
+    padding-top: 11px;
+    width: 100%;
+}
+.clear-both {
+    clear: both;
+}
+#modes {
+    color: white;
+    cursor: pointer;
+    display: table;
+    float: right;
+}
+#normal-mode {
+    float: left;
+}
+#toggle-night-day {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+#toggle-button {
+    border-radius: 50% 50% 50% 50%;
+    color: #FFFFFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 0 auto;
+    width: 40px;
+}
+#toggle-button .night:after {
+    background-color: #000000;
+}
+#toggle-text {
+    cursor: pointer;
+    margin-right: 4px;
+    text-align: center;
+}
+.night {
+    background-color: #000000;
+    border: 4px solid #FFFFFF;
+}
+.night:hover {
+    background-color: #CCCCCC;
+}
+.night:active {
+    background-color: #FFFFFF;
+}
+.night:before {
+    content: "☾";
+    display: inline-block;
+    font-size: 25px;
+    margin-left: -5px;
+    transform: rotate(-44deg);
+}
+.day {
+    background-color: #FFFFFF;
+    border: 4px solid #FFFFFF;
+}
+.day:hover {
+    background-color: #CCCCCC;
+}
+.day:active {
+    background-color: #000000;
+}
+.day:before {
+    color: #000000;
+    content: "☀";
+    display: inline-block;
+    font-size: 34px;
+    margin-top: -8px;
+    text-align: center;
+}
+.basic_shadow {
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+.hard_shadow {
+    text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.glowing {
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.7);
+}
+.double_shadow {
+    text-shadow: 4px 3px 0 #FFFFFF, 9px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.letterpress {
+    text-shadow: 0 3px 3px rgba(255, 255, 255, 0.5);
+}
+.letterpress2 {
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.1);
+}
+.down_and_distant {
+    text-shadow: 0 3px 0 #B2A98F, 0 14px 10px rgba(0, 0, 0, 0.15), 0 24px 2px rgba(0, 0, 0, 0.1), 0 34px 30px rgba(0, 0, 0, 0.1);
+}
+.close_and_heavy {
+    text-shadow: 0 4px 3px rgba(0, 0, 0, 0.4), 0 8px 13px rgba(0, 0, 0, 0.1), 0 18px 23px rgba(0, 0, 0, 0.1);
+}
+.multiple_light_sources {
+    text-shadow: 0 15px 5px rgba(0, 0, 0, 0.1), 10px 20px 5px rgba(0, 0, 0, 0.05), -10px 20px 5px rgba(0, 0, 0, 0.05);
+}
+.soft_emboss {
+    color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2), 0 -5px 35px rgba(255, 255, 255, 0.3);
+}
+.text_outline {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.text_outline2 {
+    color: white;
+    text-shadow: 3px 3px 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+.fs_9px {
+    font-size: 9px;
+}
+.fs_10px {
+    font-size: 10px;
+}
+.fs_11px {
+    font-size: 11px;
+}
+.fs_12px {
+    font-size: 12px;
+}
+.fs_14px {
+    font-size: 14px;
+}
+.fs_16px {
+    font-size: 16px;
+}
+.fs_18px {
+    font-size: 18px;
+}
+.fs_20px {
+    font-size: 20px;
+}
+.fs_22px {
+    font-size: 22px;
+}
+.fs_24px {
+    font-size: 24px;
+}
+.fs_26px {
+    font-size: 26px;
+}
+.fs_28px {
+    font-size: 28px;
+}
+.fs_30px {
+    font-size: 30px;
+}
+.fs_32px {
+    font-size: 32px;
+}
+.fs_34px {
+    font-size: 34px;
+}
+.fs_36px {
+    font-size: 36px;
+}
+.fs_38px {
+    font-size: 38px;
+}
+.fs_40px {
+    font-size: 40px;
+}
+.fs_42px {
+    font-size: 42px;
+}
+.fs_44px {
+    font-size: 44px;
+}
+.fs_46px {
+    font-size: 46px;
+}
+.fs_48px {
+    font-size: 48px;
+}
+.fs_50px {
+    font-size: 50px;
+}
+.fs_55px {
+    font-size: 55px;
+}
+.fs_60px {
+    font-size: 60px;
+}
+.fs_65px {
+    font-size: 65px;
+}
+.fs_70px {
+    font-size: 70px;
+}
+.fs_72px {
+    font-size: 72px;
+}
+.fs_75px {
+    font-size: 75px;
+}
+.fs_80px {
+    font-size: 80px;
+}
+.fs_85px {
+    font-size: 85px;
+}
+.fs_90px {
+    font-size: 90px;
+}
+.fs_95px {
+    font-size: 95px;
+}
+.fs_100px {
+    font-size: 100px;
+}
+.Arial {
+    font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+.Arial_Black {
+    font-family: "Arial Black","Arial Bold",Gadget,sans-serif;
+}
+.Arial_Narrow {
+    font-family: "Arial Narrow",Arial,sans-serif;
+}
+.Arial_Rounded_MT_Bold {
+    font-family: "Arial Rounded MT Bold","Helvetica Rounded",Arial,sans-serif;
+}
+.Avant_Garde {
+    font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,"AppleGothic",sans-serif;
+}
+.Calibri {
+    font-family: Calibri,Candara,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+}
+.Candara {
+    font-family: Candara,Calibri,Segoe,"Segoe UI",Optima,Arial,sans-serif;
+}
+.Century_Gothic {
+    font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
+.Franklin_Gothic_Medium {
+    font-family: "Franklin Gothic Medium","Franklin Gothic","ITC Franklin Gothic",Arial,sans-serif;
+}
+.Futura {
+    font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+}
+.Geneva {
+    font-family: Geneva,Tahoma,Verdana,sans-serif;
+}
+.Gill_Sans {
+    font-family: "Gill Sans","Gill Sans MT",Calibri,sans-serif;
+}
+.Helvetica {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.Impact {
+    font-family: Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black",sans serif;
+}
+.Lucida_Grande {
+    font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+.Optima {
+    font-family: Optima,Segoe,"Segoe UI",Candara,Calibri,Arial,sans-serif;
+}
+.Segoe_UI {
+    font-family: "Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif;
+}
+.Tahoma {
+    font-family: Tahoma,Verdana,Segoe,sans-serif;
+}
+.Trebuchet_MS {
+    font-family: "Trebuchet MS","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Tahoma,sans-serif;
+}
+.Verdana {
+    font-family: Verdana,Geneva,sans-serif;
+}
+.Baskerville {
+    font-family: Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+.Big_Caslon {
+    font-family: "Big Caslon","Book Antiqua","Palatino Linotype",Georgia,serif;
+}
+.Bodoni_MT {
+    font-family: "Bodoni MT",Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+.Book_Antiqua {
+    font-family: "Book Antiqua",Palatino,"Palatino Linotype","Palatino LT STD",Georgia,serif;
+}
+.Calisto_MT {
+    font-family: "Calisto MT","Bookman Old Style",Bookman,"Goudy Old Style",Garamond,"Hoefler Text","Bitstream Charter",Georgia,serif;
+}
+.Cambria {
+    font-family: Cambria,Georgia,serif;
+}
+.Didot {
+    font-family: Didot,"Didot LT STD","Hoefler Text",Garamond,"Times New Roman",serif;
+}
+.Garamond {
+    font-family: Garamond,Baskerville,"Baskerville Old Face","Hoefler Text","Times New Roman",serif;
+}
+.Georgia {
+    font-family: Georgia,Times,"Times New Roman",serif;
+}
+.Goudy_Old_Style {
+    font-family: "Goudy Old Style",Garamond,"Big Caslon","Times New Roman",serif;
+}
+.Hoefler_Text {
+    font-family: "Hoefler Text","Baskerville old face",Garamond,"Times New Roman",serif;
+}
+.Lucida_Bright {
+    font-family: "Lucida Bright",Georgia,serif;
+}
+.Palatino {
+    font-family: Palatino,"Palatino Linotype","Palatino LT STD","Book Antiqua",Georgia,serif;
+}
+.Perpetua {
+    font-family: Perpetua,Baskerville,"Big Caslon","Palatino Linotype",Palatino,"URW Palladio L","Nimbus Roman No9 L",serif;
+}
+.Rockwell {
+    font-family: Rockwell,"Courier Bold",Courier,Georgia,Times,"Times New Roman",serif;
+}
+.Rockwell_Extra_Bold {
+    font-family: "Rockwell Extra Bold","Rockwell Bold",monospace;
+}
+.Times_New_Roman {
+    font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
+}
+.Andale_Mono {
+    font-family: "Andale Mono",AndaleMono,monospace;
+}
+.Consolas {
+    font-family: Consolas,monaco,monospace;
+}
+.Courier_New {
+    font-family: "Courier New",Courier,"Lucida Sans Typewriter","Lucida Typewriter",monospace;
+}
+.Lucida_Console {
+    font-family: "Lucida Console","Lucida Sans Typewriter",Monaco,"Bitstream Vera Sans Mono",monospace;
+}
+.Lucida_Sans_Typewriter {
+    font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
+}
+.Monaco {
+    font-family: Monaco,Consolas,"Lucida Console",monospace;
+}
+.Copperplate {
+    font-family: Copperplate,"Copperplate Gothic Light",fantasy;
+}
+.Papyus {
+    font-family: Papyrus,fantasy;
+}
+.Brush_Script_MT {
+    font-family: "Brush Script MT",cursive;
+}
+.Comic_Sans {
+    font-family: Comic Sans,Comic Sans MS,cursive;
+}
+.Alice_Blue {
+    color: #F0F8FF !important;
+}
+.Antique_White {
+    color: #FAEBD7 !important;
+}
+.Aqua {
+    color: #00FFFF !important;
+}
+.Aquamarine {
+    color: #7FFFD4 !important;
+}
+.Azure {
+    color: #F0FFFF !important;
+}
+.Beige {
+    color: #F5F5DC !important;
+}
+.Bisque {
+    color: #FFE4C4 !important;
+}
+.Black {
+    color: #000000 !important;
+}
+.Blanched_Almond {
+    color: #FFEBCD !important;
+}
+.Blue {
+    color: #0000FF !important;
+}
+.Blue_Violet {
+    color: #8A2BE2 !important;
+}
+.Brown {
+    color: #A52A2A !important;
+}
+.Burly_Wood {
+    color: #DEB887 !important;
+}
+.Cadet_Blue {
+    color: #5F9EA0 !important;
+}
+.Chartreuse {
+    color: #7FFF00 !important;
+}
+.Chocolate {
+    color: #D2691E !important;
+}
+.Coral {
+    color: #FF7F50 !important;
+}
+.Cornflower_Blue {
+    color: #6495ED !important;
+}
+.Cornsilk {
+    color: #FFF8DC !important;
+}
+.Crimson {
+    color: #DC143C !important;
+}
+.Cyan {
+    color: #00FFFF !important;
+}
+.Dark_Blue {
+    color: #00008B !important;
+}
+.Dark_Cyan {
+    color: #008B8B !important;
+}
+.Dark_Golden_Rod {
+    color: #B8860B !important;
+}
+.Dark_Gray {
+    color: #A9A9A9 !important;
+}
+.Dark_Grey {
+    color: #A9A9A9 !important;
+}
+.Dark_Green {
+    color: #006400 !important;
+}
+.Dark_Khaki {
+    color: #BDB76B !important;
+}
+.Dark_Magenta {
+    color: #8B008B !important;
+}
+.Dark_Olive_Green {
+    color: #556B2F !important;
+}
+.Dark_Orange {
+    color: #FF8C00 !important;
+}
+.Dark_Orchid {
+    color: #9932CC !important;
+}
+.Dark_Red {
+    color: #8B0000 !important;
+}
+.Dark_Salmon {
+    color: #E9967A !important;
+}
+.Dark_Sea_Green {
+    color: #8FBC8F !important;
+}
+.Dark_Slate_Blue {
+    color: #483D8B !important;
+}
+.Dark_Slate_Gray {
+    color: #2F4F4F !important;
+}
+.Dark_Slate_Grey {
+    color: #2F4F4F !important;
+}
+.Dark_Turqoise {
+    color: #00CED1 !important;
+}
+.Dark_Violet {
+    color: #9400D3 !important;
+}
+.Deep_Pink {
+    color: #FF1493 !important;
+}
+.Deep_Sky_Blue {
+    color: #00BFFF !important;
+}
+.Dim_Gray {
+    color: #696969 !important;
+}
+.Dim_Grey {
+    color: #696969 !important;
+}
+.Dodger_Blue {
+    color: #1E90FF !important;
+}
+.Fire_Brick {
+    color: #B22222 !important;
+}
+.Floral_White {
+    color: #FFFAF0 !important;
+}
+.Forest_Green {
+    color: #228B22 !important;
+}
+.Fuchsia {
+    color: #FF00FF !important;
+}
+.Gainsboro {
+    color: #DCDCDC !important;
+}
+.Ghost_White {
+    color: #F8F8FF !important;
+}
+.Gold {
+    color: #FFD700 !important;
+}
+.Golden_Rod {
+    color: #DAA520 !important;
+}
+.Gray {
+    color: #808080 !important;
+}
+.Grey {
+    color: #808080 !important;
+}
+.Green {
+    color: #008000 !important;
+}
+.Green_Yellow {
+    color: #ADFF2F !important;
+}
+.Honey_Dew {
+    color: #F0FFF0 !important;
+}
+.Hot_Pink {
+    color: #FF69B4 !important;
+}
+.Indian_Red {
+    color: #CD5C5C !important;
+}
+.Indigo {
+    color: #4B0082 !important;
+}
+.Ivory {
+    color: #FFFFF0 !important;
+}
+.Khaki {
+    color: #F0E68C !important;
+}
+.Lavender {
+    color: #E6E6FA !important;
+}
+.Lavender_Blush {
+    color: #FFF0F5 !important;
+}
+.Lawn_Green {
+    color: #7CFC00 !important;
+}
+.Lemon_Chiffon {
+    color: #FFFACD !important;
+}
+.Light_Blue {
+    color: #ADD8E6 !important;
+}
+.Light_Coral {
+    color: #F08080 !important;
+}
+.Light_Cyan {
+    color: #E0FFFF !important;
+}
+.Light_Golden_Rod_Yellow {
+    color: #FAFAD2 !important;
+}
+.Light_Gray {
+    color: #D3D3D3 !important;
+}
+.Light_Grey {
+    color: #D3D3D3 !important;
+}
+.Light_Green {
+    color: #90EE90 !important;
+}
+.Light_Pink {
+    color: #FFB6C1 !important;
+}
+.Light_Salmon {
+    color: #FFA07A !important;
+}
+.Light_Sea_Green {
+    color: #20B2AA !important;
+}
+.Light_Sky_Blue {
+    color: #87CEFA !important;
+}
+.Light_Slate_Gray {
+    color: #778899 !important;
+}
+.Light_Slate_Grey {
+    color: #778899 !important;
+}
+.Light_Steel_Blue {
+    color: #B0C4DE !important;
+}
+.Light_Yellow {
+    color: #FFFFE0 !important;
+}
+.Lime {
+    color: #00FF00 !important;
+}
+.Lime_Green {
+    color: #32CD32 !important;
+}
+.Linen {
+    color: #FAF0E6 !important;
+}
+.Magenta {
+    color: #FF00FF !important;
+}
+.Maroon {
+    color: #800000 !important;
+}
+.Medium_Aqua_Marine {
+    color: #66CDAA !important;
+}
+.Medium_Blue {
+    color: #0000CD !important;
+}
+.Medium_Orchid {
+    color: #BA55D3 !important;
+}
+.Medium_Purple {
+    color: #9370DB !important;
+}
+.Medium_Sea_Green {
+    color: #3CB371 !important;
+}
+.Medium_Slate_Blue {
+    color: #7B68EE !important;
+}
+.Medium_Spring_Green {
+    color: #00FA9A !important;
+}
+.Medium_Turquoise {
+    color: #48D1CC !important;
+}
+.Medium_Violet_Red {
+    color: #C71585 !important;
+}
+.Midnight_Blue {
+    color: #191970 !important;
+}
+.Mint_Cream {
+    color: #F5FFFA !important;
+}
+.Misty_Rose {
+    color: #FFE4E1 !important;
+}
+.Moccasin {
+    color: #FFE4B5 !important;
+}
+.Navajo_White {
+    color: #FFDEAD !important;
+}
+.Navy {
+    color: #000080 !important;
+}
+.Old_Lace {
+    color: #FDF5E6 !important;
+}
+.Olive {
+    color: #808000 !important;
+}
+.Olive_Drab {
+    color: #6B8E23 !important;
+}
+.Orange {
+    color: #FFA500 !important;
+}
+.Orange_Red {
+    color: #FF4500 !important;
+}
+.Orchid {
+    color: #DA70D6 !important;
+}
+.Pale_Golden_Rod {
+    color: #EEE8AA !important;
+}
+.Pale_Green {
+    color: #98FB98 !important;
+}
+.Pale_Turquoise {
+    color: #AFEEEE !important;
+}
+.Pale_Violet_Red {
+    color: #DB7093 !important;
+}
+.Papaya_Whip {
+    color: #FFEFD5 !important;
+}
+.Peach_Puff {
+    color: #FFDAB9 !important;
+}
+.Peru {
+    color: #CD853F !important;
+}
+.Pink {
+    color: #FFC0CB !important;
+}
+.Plum {
+    color: #DDA0DD !important;
+}
+.Powder_Blue {
+    color: #B0E0E6 !important;
+}
+.Purple {
+    color: #800080 !important;
+}
+.Red {
+    color: #FF0000 !important;
+}
+.Rosy_Brown {
+    color: #BC8F8F !important;
+}
+.Royal_Blue {
+    color: #4169E1 !important;
+}
+.Saddle_Brown {
+    color: #8B4513 !important;
+}
+.Salmon {
+    color: #FA8072 !important;
+}
+.Sandy_Brown {
+    color: #F4A460 !important;
+}
+.Sea_Green {
+    color: #2E8B57 !important;
+}
+.Sea_Shell {
+    color: #FFF5EE !important;
+}
+.Sienna {
+    color: #A0522D !important;
+}
+.Silver {
+    color: #C0C0C0 !important;
+}
+.SkyBlue {
+    color: #87CEEB !important;
+}
+.Slate_Blue {
+    color: #6A5ACD !important;
+}
+.Slate_Gray {
+    color: #708090 !important;
+}
+.Slate_Grey {
+    color: #708090 !important;
+}
+.Snow {
+    color: #FFFAFA !important;
+}
+.Spring_Green {
+    color: #00FF7F !important;
+}
+.Steel_Blue {
+    color: #4682B4 !important;
+}
+.Tan {
+    color: #D2B48C !important;
+}
+.Teal {
+    color: #008080 !important;
+}
+.Thistle {
+    color: #D8BFD8 !important;
+}
+.Tomato {
+    color: #FF6347 !important;
+}
+.Turquoise {
+    color: #40E0D0 !important;
+}
+.Violet {
+    color: #EE82EE !important;
+}
+.Wheat {
+    color: #F5DEB3 !important;
+}
+.White {
+    color: #FFFFFF !important;
+}
+.White_Smoke {
+    color: #F5F5F5 !important;
+}
+.Yellow {
+    color: #FFFF00 !important;
+}
+.Yellow_Green {
+    color: #9ACD32 !important;
+}
+.Alice_Blue_BG {
+    background-color: #F0F8FF !important;
+}
+.Antique_White_BG {
+    background-color: #FAEBD7 !important;
+}
+.Aqua_BG {
+    background-color: #00FFFF !important;
+}
+.Aquamarine_BG {
+    background-color: #7FFFD4 !important;
+}
+.Azure_BG {
+    background-color: #F0FFFF !important;
+}
+.Beige_BG {
+    background-color: #F5F5DC !important;
+}
+.Bisque_BG {
+    background-color: #FFE4C4 !important;
+}
+.Black_BG {
+    background-color: #000000 !important;
+}
+.Blanched_Almond_BG {
+    background-color: #FFEBCD !important;
+}
+.Blue_BG {
+    background-color: #0000FF !important;
+}
+.Blue_Violet_BG {
+    background-color: #8A2BE2 !important;
+}
+.Brown_BG {
+    background-color: #A52A2A !important;
+}
+.Burly_Wood_BG {
+    background-color: #DEB887 !important;
+}
+.Cadet_Blue_BG {
+    background-color: #5F9EA0 !important;
+}
+.Chartreuse_BG {
+    background-color: #7FFF00 !important;
+}
+.Chocolate_BG {
+    background-color: #D2691E !important;
+}
+.Coral_BG {
+    background-color: #FF7F50 !important;
+}
+.Cornflower_Blue_BG {
+    background-color: #6495ED !important;
+}
+.Cornsilk_BG {
+    background-color: #FFF8DC !important;
+}
+.Crimson_BG {
+    background-color: #DC143C !important;
+}
+.Cyan_BG {
+    background-color: #00FFFF !important;
+}
+.Dark_Blue_BG {
+    background-color: #00008B !important;
+}
+.Dark_Cyan_BG {
+    background-color: #008B8B !important;
+}
+.Dark_Golden_Rod_BG {
+    background-color: #B8860B !important;
+}
+.Dark_Gray_BG {
+    background-color: #A9A9A9 !important;
+}
+.Dark_Grey_BG {
+    background-color: #A9A9A9 !important;
+}
+.Dark_Green_BG {
+    background-color: #006400 !important;
+}
+.Dark_Khaki_BG {
+    background-color: #BDB76B !important;
+}
+.Dark_Magenta_BG {
+    background-color: #8B008B !important;
+}
+.Dark_Olive_Green_BG {
+    background-color: #556B2F !important;
+}
+.Dark_Orange_BG {
+    background-color: #FF8C00 !important;
+}
+.Dark_Orchid_BG {
+    background-color: #9932CC !important;
+}
+.Dark_Red_BG {
+    background-color: #8B0000 !important;
+}
+.Dark_Salmon_BG {
+    background-color: #E9967A !important;
+}
+.Dark_Sea_Green_BG {
+    background-color: #8FBC8F !important;
+}
+.Dark_Slate_Blue_BG {
+    background-color: #483D8B !important;
+}
+.Dark_Slate_Gray_BG {
+    background-color: #2F4F4F !important;
+}
+.Dark_Slate_Grey_BG {
+    background-color: #2F4F4F !important;
+}
+.Dark_Turqoise_BG {
+    background-color: #00CED1 !important;
+}
+.Dark_Violet_BG {
+    background-color: #9400D3 !important;
+}
+.Deep_Pink_BG {
+    background-color: #FF1493 !important;
+}
+.Deep_Sky_Blue_BG {
+    background-color: #00BFFF !important;
+}
+.Dim_Gray_BG {
+    background-color: #696969 !important;
+}
+.Dim_Grey_BG {
+    background-color: #696969 !important;
+}
+.Dodger_Blue_BG {
+    background-color: #1E90FF !important;
+}
+.Fire_Brick_BG {
+    background-color: #B22222 !important;
+}
+.Floral_White_BG {
+    background-color: #FFFAF0 !important;
+}
+.Forest_Green_BG {
+    background-color: #228B22 !important;
+}
+.Fuchsia_BG {
+    background-color: #FF00FF !important;
+}
+.Gainsboro_BG {
+    background-color: #DCDCDC !important;
+}
+.Ghost_White_BG {
+    background-color: #F8F8FF !important;
+}
+.Gold_BG {
+    background-color: #FFD700 !important;
+}
+.Golden_Rod_BG {
+    background-color: #DAA520 !important;
+}
+.Gray_BG {
+    background-color: #808080 !important;
+}
+.Grey_BG {
+    background-color: #808080 !important;
+}
+.Green_BG {
+    background-color: #008000 !important;
+}
+.Green_Yellow_BG {
+    background-color: #ADFF2F !important;
+}
+.Honey_Dew_BG {
+    background-color: #F0FFF0 !important;
+}
+.Hot_Pink_BG {
+    background-color: #FF69B4 !important;
+}
+.Indian_Red_BG {
+    background-color: #CD5C5C !important;
+}
+.Indigo_BG {
+    background-color: #4B0082 !important;
+}
+.Ivory_BG {
+    background-color: #FFFFF0 !important;
+}
+.Khaki_BG {
+    background-color: #F0E68C !important;
+}
+.Lavender_BG {
+    background-color: #E6E6FA !important;
+}
+.Lavender_Blush_BG {
+    background-color: #FFF0F5 !important;
+}
+.Lawn_Green_BG {
+    background-color: #7CFC00 !important;
+}
+.Lemon_Chiffon_BG {
+    background-color: #FFFACD !important;
+}
+.Light_Blue_BG {
+    background-color: #ADD8E6 !important;
+}
+.Light_Coral_BG {
+    background-color: #F08080 !important;
+}
+.Light_Cyan_BG {
+    background-color: #E0FFFF !important;
+}
+.Light_Golden_Rod_Yellow_BG {
+    background-color: #FAFAD2 !important;
+}
+.Light_Gray_BG {
+    background-color: #D3D3D3 !important;
+}
+.Light_Grey_BG {
+    background-color: #D3D3D3 !important;
+}
+.Light_Green_BG {
+    background-color: #90EE90 !important;
+}
+.Light_Pink_BG {
+    background-color: #FFB6C1 !important;
+}
+.Light_Salmon_BG {
+    background-color: #FFA07A !important;
+}
+.Light_Sea_Green_BG {
+    background-color: #20B2AA !important;
+}
+.Light_Sky_Blue_BG {
+    background-color: #87CEFA !important;
+}
+.Light_Slate_Gray_BG {
+    background-color: #778899 !important;
+}
+.Light_Slate_Grey_BG {
+    background-color: #778899 !important;
+}
+.Light_Steel_Blue_BG {
+    background-color: #B0C4DE !important;
+}
+.Light_Yellow_BG {
+    background-color: #FFFFE0 !important;
+}
+.Lime_BG {
+    background-color: #00FF00 !important;
+}
+.Lime_Green_BG {
+    background-color: #32CD32 !important;
+}
+.Linen_BG {
+    background-color: #FAF0E6 !important;
+}
+.Magenta_BG {
+    background-color: #FF00FF !important;
+}
+.Maroon_BG {
+    background-color: #800000 !important;
+}
+.Medium_Aqua_Marine_BG {
+    background-color: #66CDAA !important;
+}
+.Medium_Blue_BG {
+    background-color: #0000CD !important;
+}
+.Medium_Orchid_BG {
+    background-color: #BA55D3 !important;
+}
+.Medium_Purple_BG {
+    background-color: #9370DB !important;
+}
+.Medium_Sea_Green_BG {
+    background-color: #3CB371 !important;
+}
+.Medium_Slate_Blue_BG {
+    background-color: #7B68EE !important;
+}
+.Medium_Spring_Green_BG {
+    background-color: #00FA9A !important;
+}
+.Medium_Turquoise_BG {
+    background-color: #48D1CC !important;
+}
+.Medium_Violet_Red_BG {
+    background-color: #C71585 !important;
+}
+.Midnight_Blue_BG {
+    background-color: #191970 !important;
+}
+.Mint_Cream_BG {
+    background-color: #F5FFFA !important;
+}
+.Misty_Rose_BG {
+    background-color: #FFE4E1 !important;
+}
+.Moccasin_BG {
+    background-color: #FFE4B5 !important;
+}
+.Navajo_White_BG {
+    background-color: #FFDEAD !important;
+}
+.Navy_BG {
+    background-color: #000080 !important;
+}
+.Old_Lace_BG {
+    background-color: #FDF5E6 !important;
+}
+.Olive_BG {
+    background-color: #808000 !important;
+}
+.Olive_Drab_BG {
+    background-color: #6B8E23 !important;
+}
+.Orange_BG {
+    background-color: #FFA500 !important;
+}
+.Orange_Red_BG {
+    background-color: #FF4500 !important;
+}
+.Orchid_BG {
+    background-color: #DA70D6 !important;
+}
+.Pale_Golden_Rod_BG {
+    background-color: #EEE8AA !important;
+}
+.Pale_Green_BG {
+    background-color: #98FB98 !important;
+}
+.Pale_Turquoise_BG {
+    background-color: #AFEEEE !important;
+}
+.Pale_Violet_Red_BG {
+    background-color: #DB7093 !important;
+}
+.Papaya_Whip_BG {
+    background-color: #FFEFD5 !important;
+}
+.Peach_Puff_BG {
+    background-color: #FFDAB9 !important;
+}
+.Peru_BG {
+    background-color: #CD853F !important;
+}
+.Pink_BG {
+    background-color: #FFC0CB !important;
+}
+.Plum_BG {
+    background-color: #DDA0DD !important;
+}
+.Powder_Blue_BG {
+    background-color: #B0E0E6 !important;
+}
+.Purple_BG {
+    background-color: #800080 !important;
+}
+.Red_BG {
+    background-color: #FF0000 !important;
+}
+.Rosy_Brown_BG {
+    background-color: #BC8F8F !important;
+}
+.Royal_Blue_BG {
+    background-color: #4169E1 !important;
+}
+.Saddle_Brown_BG {
+    background-color: #8B4513 !important;
+}
+.Salmon_BG {
+    background-color: #FA8072 !important;
+}
+.Sandy_Brown_BG {
+    background-color: #F4A460 !important;
+}
+.Sea_Green {
+    background-color: #2E8B57 !important;
+}
+.Sea_Shell_BG {
+    background-color: #FFF5EE !important;
+}
+.Sienna_BG {
+    background-color: #A0522D !important;
+}
+.Silver_BG {
+    background-color: #C0C0C0 !important;
+}
+.SkyBlue_BG {
+    background-color: #87CEEB !important;
+}
+.Slate_Blue_BG {
+    background-color: #6A5ACD !important;
+}
+.Slate_Gray_BG {
+    background-color: #708090 !important;
+}
+.Slate_Grey_BG {
+    background-color: #708090 !important;
+}
+.Snow_BG {
+    background-color: #FFFAFA !important;
+}
+.Spring_Green_BG {
+    background-color: #00FF7F !important;
+}
+.Steel_Blue_BG {
+    background-color: #4682B4 !important;
+}
+.Tan_BG {
+    background-color: #D2B48C !important;
+}
+.Teal_BG {
+    background-color: #008080 !important;
+}
+.Thistle_BG {
+    background-color: #D8BFD8 !important;
+}
+.Tomato_BG {
+    background-color: #FF6347 !important;
+}
+.Turquoise_BG {
+    background-color: #40E0D0 !important;
+}
+.Violet_BG {
+    background-color: #EE82EE !important;
+}
+.Wheat_BG {
+    background-color: #F5DEB3 !important;
+}
+.White_BG {
+    background-color: #FFFFFF !important;
+}
+.White_Smoke_BG {
+    background-color: #F5F5F5 !important;
+}
+.Yellow_BG {
+    background-color: #FFFF00 !important;
+}
+.Yellow_Green_BG {
+    background-color: #9ACD32 !important;
+}
+.speech {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 5px solid #2F4F4F;
+    border-radius: 10px 10px 10px 10px;
+    display: inline-block;
+    margin: 1em 0;
+    padding: 15px;
+    position: relative;
+}
+.speech.left {
+    margin-left: 30px;
+}
+.speech.right {
+    margin-right: 30px;
+}
+.speech:before {
+    border-color: #2F4F4F transparent;
+    border-style: solid;
+    border-width: 20px 20px 0;
+    bottom: -20px;
+    content: "";
+    left: 40px;
+    position: absolute;
+}
+.speech:after {
+    border-color: #FFFFFF transparent;
+    border-style: solid;
+    border-width: 13px 13px 0;
+    bottom: -13px;
+    content: "";
+    left: 47px;
+    position: absolute;
+}
+.speech.top:before {
+    border-width: 0 20px 20px;
+    bottom: auto;
+    left: auto;
+    right: 40px;
+    top: -20px;
+}
+.speech.top:after {
+    border-width: 0 13px 13px;
+    bottom: auto;
+    left: auto;
+    right: 47px;
+    top: -13px;
+}
+.speech.left:before {
+    border-color: transparent #2F4F4F;
+    border-width: 15px 30px 15px 0;
+    bottom: auto;
+    left: -30px;
+    top: 10px;
+}
+.speech.left:after {
+    border-color: transparent #FFFFFF;
+    border-width: 9px 21px 9px 0;
+    bottom: auto;
+    left: -21px;
+    top: 16px;
+}
+.speech.right:before {
+    border-color: transparent #2F4F4F;
+    border-width: 15px 0 15px 30px;
+    bottom: auto;
+    left: auto;
+    right: -30px;
+    top: 10px;
+}
+.speech.right:after {
+    border-color: transparent #FFFFFF;
+    border-width: 9px 0 9px 21px;
+    bottom: auto;
+    left: auto;
+    right: -21px;
+    top: 16px;
+}
+.thought {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 2px solid black;
+    border-radius: 180px 180px 180px 180px;
+    color: #575544;
+    display: inline-block;
+    margin-bottom: 60px !important;
+    padding: 20px 40px;
+    position: relative;
+}
+.thought:before {
+    background: inherit;
+    border: 2px solid black;
+    border-radius: 30px 30px 30px 30px;
+    bottom: -34px;
+    content: "";
+    height: 30px;
+    left: 51px;
+    position: absolute;
+    width: 30px;
+}
+.thought:after {
+    background: inherit;
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+    bottom: -53px;
+    content: "";
+    height: 15px;
+    left: 53px;
+    position: absolute;
+    width: 15px;
+}
+.pagination {
+    border: 1px solid #CDCDCD;
+    border-radius: 3px 3px 3px 3px;
+    display: table;
+    margin: -1px auto 0;
+}
+.pagination a {
+    background: -moz-linear-gradient(center top , #F3F3F3 0%, #D3D3D3 100%) repeat scroll 0 0 transparent;
+    color: #555555;
+    display: block;
+    float: left;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 20px;
+    outline: medium none;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 20px;
+}
+.pagination a:hover, .pagination a:focus, .pagination a:active {
+    background: -moz-linear-gradient(center top , #E4E4E4 0%, #CECECE 100%) repeat scroll 0 0 transparent;
+}
+.pagination a.disabled, .pagination a.disabled:hover, .pagination a.disabled:focus, .pagination a.disabled:active {
+    background: -moz-linear-gradient(center top , #F3F3F3 0%, #D3D3D3 100%) repeat scroll 0 0 transparent;
+    color: #A8A8A8;
+}
+.pagination a:first-child {
+    border-radius: 2px 0 0 2px;
+}
+.pagination a:last-child {
+    border-radius: 0 2px 2px 0;
+}
+.pagination a {
+    border-left: 1px solid #CDCDCD;
+    border-right: 1px solid #CDCDCD;
+}
+.pagination a:first-child {
+    border: medium none;
+}
+.pagination a:last-child {
+    border: medium none;
+}
+.pagination input {
+    border: medium none;
+    float: left;
+    height: 20px;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 120px;
+}
+.gigantic.pagination {
+    margin: 0 auto;
+}
+.gigantic.pagination a {
+    font-size: 50px;
+    height: 60px;
+    line-height: 50px;
+    width: 60px;
+}
+.gigantic.pagination input {
+    font-size: 30px;
+    height: 60px;
+    width: 300px;
+}

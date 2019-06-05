@@ -1,0 +1,30 @@
+/*-------------------------------------------------------------------------
+This stylesheet is intended for users to create their own rules and styles.
+I've included two demo classes so inexperienced users have an idea of what
+CSS rules looks like. 
+
+All classes begin with a period ('.'), followed by its name. Once the style
+is created, go to the XML file and enter the same name WITHOUT the period 
+under any class attribute (e.g. text). Also, spaces are not allowed.  
+
+.classExample1 and 2 aren't being used by anything, so it can be deleted.
+
+
+
+For support and/or tutorials, check out the following: 
+W3C's CSS tutorial: http://www.w3schools.com/w3c/default.asp
+Color picker: http://www.colorpicker.com/ 
+
+-------------------------------------------------------------------------*/
+.classExample1{
+	background-color: rgb(255,0,0);
+	text-align: right;
+	text-transform: capitalize;
+}
+.classExample2{
+	color: #00ff00;
+	font-style: italic;
+	font-size: 53px;
+	font-family: "Times New Roman", Times, serif;
+	text-transform: lowercase;
+}

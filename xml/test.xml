@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE story SYSTEM "file:/C:/Users/Mike%20Maether/Documents/RIT/capstone/xml-conversion/xml/story.dtd">
+<story>
+    <scene height="400px" background_color_preset="Azure">
+        <text font_size="100px">
+            <text_content>A bunch of text</text_content>
+        </text>
+    </scene>
+    <scene height="500px" background_color_preset="Bisque">
+        <text padding-top="300px">
+            <text_content>Dummy text.</text_content>
+        </text>
+        <text>
+            <text_content>Fly</text_content>
+            <positioning>
+                <preset_position horizontal="center"/>
+            </positioning>
+            <text_scrolling_animation>
+                <fly>
+                    <fly_upwards_to_the_right>
+                        <fly_upwards in_pixels="100px"/>
+                        <fly_to_the_right in_pixels="100px"/>
+                    </fly_upwards_to_the_right>
+                </fly>
+            </text_scrolling_animation>
+        </text>
+    </scene>
+    <scene height="200px" background_color_preset="Blanched_Almond">
+        <text>
+            <text_content>Scene 3</text_content>
+        </text>
+    </scene>
+</story>

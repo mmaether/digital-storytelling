@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="14.1">
+    <meta>
+        <filters directoryPatterns="" filePatterns="" positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="digital_storytelling.xpr">
+        <file name="story.dtd"/>
+        <file name="story1.xml"/>
+    </projectTree>
+</project>

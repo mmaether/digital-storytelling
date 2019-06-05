@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--***********************************************************************-->
+<!--General DTD declarations and entities-->
+<!--***********************************************************************-->
+
+<!--Declare image mimetype data-->
+<!NOTATION gif SYSTEM "image/gif">
+<!NOTATION jpg SYSTEM "image/jpeg">
+<!NOTATION png SYSTEM "image/png">
+
+<!--List of entities used throughout the DTD-->
+
+<!-- This following two entities are for scrolling animations. 
+Sometimes the animations either can't include the opacity 
+or have the opacity included elsewhere. This is when the opacity
+shouldn't be included on the entire scrolling animation. An example would
+be for sizing an element. For sizing an element, you can have an opacity for 
+before the resize and after the resize. The opacity wouldn't be added to the 
+entire element. -->
+<!ENTITY % animation_effects 
+    "duration CDATA #IMPLIED                          
+    offset CDATA #IMPLIED
+    opacity (0|0.1|0.2|0.3|0.4|0.5|0.6|0.7|0.8|0.9|1) #IMPLIED" >
+
+<!ENTITY % animation_effects_no_opacity 
+    "duration CDATA #IMPLIED
+    offset CDATA #IMPLIED" >
+
+<!-- the opacity is the transparency. Keep it confined so users can't 
+mistakenly choose an incorrect value that is difficult to comprehrend.-->
+<!ENTITY % opacity
+    "opacity (0|0.1|0.2|0.3|0.4|0.5|0.6|0.7|0.8|0.9|1) #IMPLIED" >
+
+<!-- the regular font_size entity is for when choosing a font-size isn't required, 
+i.e. any instance except for mixed content-->
+<!ENTITY % font_size
+    "font_size (9px|10px|11px|12px|14px|16px|18px|20px|22px|
+    24px|26px|28px|30px|32px|34px|36px|38px|40px|42px|44px|46px|
+    48px|50px|55px|60px|65px|70px|72px|75px|80px|85px|90px|95px|100px) #IMPLIED" >
+
+<!-- The font_size_required entity is needed for mixed content for the text_content element -->
+<!ENTITY % font_size_required
+    "font_size (9px|10px|11px|12px|14px|16px|18px|20px|22px|
+    24px|26px|28px|30px|32px|34px|36px|38px|40px|42px|44px|46px|
+    48px|50px|55px|60px|65px|70px|72px|75px|80px|85px|90px|95px|100px) #REQUIRED" >
+
+<!-- the padding element will let the user adjust the elements' padding,
+     and more specifically text to make it legible-->
+<!ENTITY % padding
+    "padding-left CDATA #IMPLIED
+     padding-right CDATA #IMPLIED
+     padding-top CDATA #IMPLIED
+     padding-bottom CDATA #IMPLIED">
+
+<!ENTITY % margin-sides
+    "margin-left CDATA #IMPLIED
+     margin-right CDATA #IMPLIED"> 
+     
+<!ENTITY % margin-all
+    "margin-left CDATA #IMPLIED
+    margin-right CDATA #IMPLIED
+    margin-top CDATA #IMPLIED
+    margin-bottom CDATA #IMPLIED">
+     
+<!-- this is a list of the available text shadows that the user can choose from-->
+<!ENTITY % text_shadow
+    "text_shadow (basic_shadow|letterpress|letterpress2|hard_shadow|double_shadow|down_and_distant|
+    close_and_heavy|glowing|multiple_light_sources|soft_emboss|text_outline|text_outline2) #IMPLIED" >
+
+<!-- the user can select any of these font families automatically. if they want to 
+add their own, they'll need to add some CSS.-->
+ <!ENTITY % font_family
+    "font_family (Arial|Arial_Black|Arial_Narrow|Arial_Rounded_MT_Bold|Avant_Garde|Calibri|
+    Candara|Century_Gothic|Franklin_Gothic_Medium|Futura|Geneva|Gill_Sans|Helvetica|Impact|
+    Lucida_Grande|Optima|Segoe_UI|Tahoma|Trebuchet_MS|Verdana|Baskerville|Big_Caslon|
+    Bodoni_MT|Book_Antiqua|Calisto_MT|Cambria|Didot|Garamond|Georgia|Goudy_Old_Style|
+    Hoefler_Text|Lucida_Bright|Palatino|Perpetua|Rockwell|Rockwell_Extra_Bold|Times_New_Roman|
+    Andale_Mono|Consolas|Courier_New|Lucida_Console|Lucida_Sans_Typewriter|Monaco|
+    Copperplate|Papyus|Brush_Script_MT|Comic_Sans) #IMPLIED">
+
+
+<!-- these color choices were selected from W3C's color names page: 
+http://www.w3schools.com/html/html_colornames.asp
+The advantage here is that they're web compliant and have identifiable names.
+If the user wants to add different colors, they'll do so in the CSS.-->
+<!ENTITY % font_color
+    "font_color_preset (Alice_Blue|Antique_White|Aqua|Aquamarine|Azure|Beige|Bisque|Black|
+    Blanched_Almond|Blue|Blue_Violet|Brown|Burly_Wood|Cadet_Blue|Chartreuse|
+    Chocolate|Coral|Cornflower_Blue|Cornsilk|Crimson|Cyan|Dark_Blue|Dark_Cyan|
+    Dark_Golden_Rod|Dark_Gray|Dark_Grey|Dark_Green|Dark_Khaki|Dark_Magenta|
+    Dark_Olive_Green|Dark_Orange|Dark_Orchid|Dark_Red|Dark_Salmon|Dark_Sea_Green|
+    Dark_Slate_Blue|Dark_Slate_Gray|Dark_Slate_Grey|Dark_Turqoise|Dark_Violet|
+    Deep_Pink|Deep_Sky_Blue|Dim_Gray|Dim_Grey|Dodger_Blue|Fire_Brick|Floral_White|
+    Forest_Green|Fuchsia|Gainsboro|Ghost_White|Gold|Golden_Rod|Gray|Grey|Green|
+    Green_Yellow|Honey_Dew|Hot_Pink|Indian_Red|Indigo|Ivory|Khaki|Lavender|
+    Lavender_Blush|Lawn_Green|Lemon_Chiffon|Light_Blue|Light_Coral|Light_Cyan|
+    Light_Golden_Rod_Yellow|Light_Gray|Light_Grey|Light_Green|Light_Pink|
+    Light_Salmon|Light_Sea_Green|Light_Sky_Blue|Light_Slate_Gray|Light_Slate_Grey|
+    Light_Steel_Blue|Light_Yellow|Lime|Lime_Green|Linen|Magenta|Maroon|
+    Medium_Aqua_Marine|Medium_Blue|Medium_Orchid|Medium_Purple|Medium_Sea_Green|
+    Medium_Slate_Blue|Medium_Spring_Green|Medium_Turquoise|Medium_Violet_Red|
+    Midnight_Blue|Mint_Cream|Misty_Rose|Moccasin|Navajo_White|Navy|Old_Lace|
+    Olive|Olive_Drab|Orange|Orange_Red|Orchid|Pale_Golden_Rod|Pale_Green|
+    Pale_Turquoise|Pale_Violet_Red|Papaya_Whip|Peach_Puff|Peru|Pink|Plum|Powder_Blue|
+    Purple|Red|Rosy_Brown|Royal_Blue|Saddle_Brown|Salmon|Sandy_Brown|Sea_Green|
+    Sea_Shell|Sienna|Silver|SkyBlue|Slate_Blue|Slate_Gray|Slate_Grey|Snow|Spring_Green|
+    Steel_Blue|Tan|Teal|Thistle|Tomato|Turquoise|Violet|Wheat|White|White_Smoke|
+    Yellow|Yellow_Green) #IMPLIED">
+    
+<!ENTITY % background_color
+    "background_color_preset (Alice_Blue|Antique_White|Aqua|Aquamarine|Azure|Beige|Bisque|Black|
+    Blanched_Almond|Blue|Blue_Violet|Brown|Burly_Wood|Cadet_Blue|Chartreuse|
+    Chocolate|Coral|Cornflower_Blue|Cornsilk|Crimson|Cyan|Dark_Blue|Dark_Cyan|
+    Dark_Golden_Rod|Dark_Gray|Dark_Grey|Dark_Green|Dark_Khaki|Dark_Magenta|
+    Dark_Olive_Green|Dark_Orange|Dark_Orchid|Dark_Red|Dark_Salmon|Dark_Sea_Green|
+    Dark_Slate_Blue|Dark_Slate_Gray|Dark_Slate_Grey|Dark_Turqoise|Dark_Violet|
+    Deep_Pink|Deep_Sky_Blue|Dim_Gray|Dim_Grey|Dodger_Blue|Fire_Brick|Floral_White|
+    Forest_Green|Fuchsia|Gainsboro|Ghost_White|Gold|Golden_Rod|Gray|Grey|Green|
+    Green_Yellow|Honey_Dew|Hot_Pink|Indian_Red|Indigo|Ivory|Khaki|Lavender|
+    Lavender_Blush|Lawn_Green|Lemon_Chiffon|Light_Blue|Light_Coral|Light_Cyan|
+    Light_Golden_Rod_Yellow|Light_Gray|Light_Grey|Light_Green|Light_Pink|
+    Light_Salmon|Light_Sea_Green|Light_Sky_Blue|Light_Slate_Gray|Light_Slate_Grey|
+    Light_Steel_Blue|Light_Yellow|Lime|Lime_Green|Linen|Magenta|Maroon|
+    Medium_Aqua_Marine|Medium_Blue|Medium_Orchid|Medium_Purple|Medium_Sea_Green|
+    Medium_Slate_Blue|Medium_Spring_Green|Medium_Turquoise|Medium_Violet_Red|
+    Midnight_Blue|Mint_Cream|Misty_Rose|Moccasin|Navajo_White|Navy|Old_Lace|
+    Olive|Olive_Drab|Orange|Orange_Red|Orchid|Pale_Golden_Rod|Pale_Green|
+    Pale_Turquoise|Pale_Violet_Red|Papaya_Whip|Peach_Puff|Peru|Pink|Plum|Powder_Blue|
+    Purple|Red|Rosy_Brown|Royal_Blue|Saddle_Brown|Salmon|Sandy_Brown|Sea_Green|
+    Sea_Shell|Sienna|Silver|SkyBlue|Slate_Blue|Slate_Gray|Slate_Grey|Snow|Spring_Green|
+    Steel_Blue|Tan|Teal|Thistle|Tomato|Turquoise|Violet|Wheat|White|White_Smoke|
+    Yellow|Yellow_Green) #IMPLIED">
+    
+<!ENTITY % parallax_position 
+    "from CDATA #REQUIRED
+    to CDATA #REQUIRED" >
+
+<!ENTITY % border
+    "border-color CDATA #IMPLIED
+     border-width CDATA #IMPLIED
+     border-style (dotted|dashed|solid|double|groove|ridge|inset|outset) #IMPLIED
+     border-side (top|right|bottom|left|all) #IMPLIED" >
+
+
+<!--root element-->
+<!ELEMENT digital_story (about, overall_style, story)>
+
+
+
+<!--*************************************************-->
+<!--About section: detail information about the story-->
+<!--*************************************************-->
+<!ELEMENT about (title, subtitle*, creators, date, sources?, other*)>
+<!ATTLIST about include_title_page (yes|no) #REQUIRED>
+
+<!--Title of the story-->
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT subtitle (#PCDATA)>
+
+<!--Creator information-->
+<!ELEMENT creators (creator)+>
+<!ELEMENT creator EMPTY>
+<!ATTLIST creator creator_type (Author|Designer|Audio|Creator|Other) #REQUIRED>
+<!ATTLIST creator creator_name CDATA #REQUIRED>
+<!ATTLIST creator creators_website CDATA #IMPLIED>
+
+
+<!--if the story creator wants to include sources (graphics used, influences, etc.)-->
+<!ELEMENT sources (source)+>
+<!ELEMENT source EMPTY>
+<!ATTLIST source source_type (Audio|Graphics|Image|Written|Other|Video) #REQUIRED>
+<!ATTLIST source source_title CDATA #REQUIRED>
+<!ATTLIST source source_creator CDATA #REQUIRED>
+<!ATTLIST source source_link CDATA #IMPLIED>
+<!ATTLIST source source_notes CDATA #IMPLIED>
+
+<!-- Date -->
+<!ELEMENT date EMPTY>
+<!ATTLIST date month (January|February|March|April|May|June|July|August|September|October|November|December) #REQUIRED>
+<!ATTLIST date day (1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31) #REQUIRED>
+<!ATTLIST date year CDATA #REQUIRED>
+<!ELEMENT other (#PCDATA)>
+
+
+
+
+
+
+<!--***********************************************************************-->
+<!--General style section: explain style that will apply for the whole page-->
+<!--***********************************************************************-->
+
+<!ELEMENT overall_style (overall_font, overall_spacing, paragraph_spacing, control_bar, title_page_style, audio?, favicon?, page_length)>
+
+<!--overall font settings-->
+<!ELEMENT overall_font EMPTY>
+<!ATTLIST overall_font %font_family;>
+<!ATTLIST overall_font %font_size;>
+<!ATTLIST overall_font %text_shadow;>
+<!ATTLIST overall_font %font_color;>
+<!ATTLIST overall_font font_color_custom CDATA #IMPLIED>
+<!ATTLIST overall_font %background_color;>
+<!ATTLIST overall_font background_color_custom CDATA #IMPLIED>
+
+<!--overall spacing for the page-->
+<!ELEMENT overall_spacing EMPTY>
+<!ATTLIST overall_spacing %margin-sides;>
+<!ATTLIST overall_spacing page_length (short|medium|long) #REQUIRED>
+<!ATTLIST overall_spacing width CDATA #IMPLIED>
+
+<!--paragraph spacing-->
+<!ELEMENT paragraph_spacing EMPTY>
+<!ATTLIST paragraph_spacing padding-bottom CDATA #IMPLIED>
+<!ATTLIST paragraph_spacing include_tab_for_every_text_content (yes|no) #IMPLIED>
+
+<!--set options for the control bar-->
+<!ELEMENT control_bar EMPTY>
+<!ATTLIST control_bar show_day_night_mode_toggle (yes|no) #REQUIRED>
+
+<!--style for the title page-->
+<!ELEMENT title_page_style EMPTY>
+<!ATTLIST title_page_style %font_family;>
+<!ATTLIST title_page_style %font_size;>
+<!ATTLIST title_page_style %text_shadow;>
+<!ATTLIST title_page_style %font_color;>
+<!ATTLIST title_page_style %background_color;>
+<!ATTLIST title_page_style background_color_custom CDATA #IMPLIED>
+
+<!--audio settings-->
+<!ELEMENT audio (mp3_file, (ogg_file|wav_file))>
+<!ATTLIST audio autoplay (yes|no) #REQUIRED>
+<!ATTLIST audio loop (yes|no) #REQUIRED>
+
+<!--audio formats-->
+<!ELEMENT mp3_file EMPTY>
+<!ATTLIST mp3_file href CDATA #REQUIRED>
+<!ELEMENT ogg_file EMPTY>
+<!ATTLIST ogg_file href CDATA #REQUIRED>
+<!ELEMENT wav_file EMPTY>
+<!ATTLIST wav_file href CDATA #REQUIRED>
+
+<!--favicon element-->
+<!ELEMENT favicon EMPTY>
+<!ATTLIST favicon file_format (.ico|.gif) #REQUIRED>
+<!ATTLIST favicon href CDATA #REQUIRED>
+
+<!-- page length element -->
+<!ELEMENT page_length EMPTY>
+<!ATTLIST page_length number_of_scenes_on_page (1|2|3|4|5|6|7|8|9|10|all) #REQUIRED>
+
+
+<!--***************************************************-->
+<!--.....Story section: everything about the story.....-->
+<!--***************************************************-->
+<!ELEMENT story (scene)+>
+
+<!--Scene element, holds texts images, or animations for the full scene-->
+<!--<!ELEMENT scene (texts, images) >-->
+<!--<!ELEMENT scene (texts|images)*>-->
+<!--<!ELEMENT scene (texts, images, scrolling_animation?)>-->
+<!ELEMENT scene (text|image|background_image)*>
+<!ATTLIST scene height CDATA #IMPLIED>
+<!ATTLIST scene %font_family;>
+<!ATTLIST scene %font_size;>
+<!ATTLIST scene %font_color;>
+<!ATTLIST scene font_color_custom CDATA #IMPLIED>
+<!ATTLIST scene %background_color;>
+<!ATTLIST scene background_color_custom CDATA #IMPLIED>
+<!ATTLIST scene %text_shadow;>
+<!ATTLIST scene %border;>
+<!ATTLIST scene overflow (visible|hidden|scroll|auto) #IMPLIED>
+
+<!--elements for the text of the story-->
+<!ELEMENT text (text_content, positioning?, text_scrolling_animation?)>
+<!ATTLIST text class CDATA #IMPLIED>
+<!ATTLIST text %font_family;>
+<!ATTLIST text %font_size;>
+<!ATTLIST text %font_color;>
+<!--<!ATTLIST text %margin-all;>-->
+<!ATTLIST text font_color_custom CDATA #IMPLIED>
+<!ATTLIST text %background_color;>
+<!ATTLIST text background_color_custom CDATA #IMPLIED>
+<!ATTLIST text %text_shadow;>
+<!ATTLIST text %padding;>
+<!ATTLIST text %border;>
+<!ATTLIST text rotation_in_degrees CDATA #IMPLIED>
+<!ATTLIST text width CDATA #IMPLIED>
+<!ATTLIST text balloon_styles (speech_left|speech_right|speech_bottom|speech_top|thought) #IMPLIED>
+<!ATTLIST text z-index CDATA #IMPLIED>
+<!ATTLIST text text-align (center|left|right|justify) #IMPLIED>
+<!ATTLIST text flip (horizontal|vertical|none) #IMPLIED>
+
+
+<!--Mixed content for text. This will let the user change the style of certain words-->
+<!ELEMENT text_content (#PCDATA|italic|bold|bold_italic|font-size|new_line|font-color|extra_space|tab|underline|horizontal_rule)*>
+
+<!--Font styling for individual text-->
+<!ELEMENT italic (#PCDATA)>
+<!ELEMENT bold (#PCDATA)>
+<!ELEMENT bold_italic (#PCDATA)>
+<!ELEMENT font-size (#PCDATA)>
+<!ATTLIST font-size %font_size_required;>
+<!ELEMENT new_line EMPTY>
+<!ELEMENT extra_space EMPTY>
+<!ELEMENT tab EMPTY>
+<!-- Only use font-color element for mixed data! -->
+<!ELEMENT font-color (#PCDATA)>
+<!ATTLIST font-color %font_color;>
+<!ELEMENT underline (#PCDATA)>
+<!ELEMENT horizontal_rule EMPTY>
+
+
+
+
+<!--**************************************-->
+<!--............Images....................-->
+<!--**************************************-->
+<!ELEMENT images (image*, background_image?)>
+<!ELEMENT image (positioning?, image_scrolling_animation*)>
+<!ATTLIST image source CDATA #REQUIRED>
+<!ATTLIST image alt CDATA #REQUIRED>
+<!ATTLIST image z-index CDATA #IMPLIED>
+<!ATTLIST image rotation_in_degrees CDATA #IMPLIED>
+<!ATTLIST image flip (horizontal|vertical|none) #IMPLIED>
+
+<!--Background image, this element will be static, cannot have a scrolling animation-->
+<!ELEMENT background_image (background_position?)>
+<!ATTLIST background_image source CDATA #REQUIRED>
+<!ATTLIST background_image repeat (repeat|repeat-x|repeat-y|no-repeat|inherit) #IMPLIED>
+
+<!--create the positions for both images and texts-->
+<!ELEMENT background_position (bg_preset|bg_set_values)>
+<!ELEMENT bg_preset EMPTY>
+<!ATTLIST bg_preset position_presets (left-top|left-center|left-bottom|right-top|right-center|right-bottom|center-top|center-center|center-bottom) #REQUIRED>
+<!ATTLIST bg_preset fit_width (yes|no) #IMPLIED>
+<!ELEMENT bg_set_values (horizontal, vertical)>
+<!ATTLIST bg_set_values percentage_or_pixels (percentage|pixels) #REQUIRED>
+<!ELEMENT horizontal (#PCDATA)>
+<!ELEMENT vertical (#PCDATA)>
+
+
+
+
+
+
+
+<!--**************************************************-->
+<!--................Positioning.......................-->
+<!--**************************************************-->
+<!ELEMENT top (#PCDATA)>
+<!ELEMENT bottom (#PCDATA)>
+<!ELEMENT right (#PCDATA)>
+<!ELEMENT left (#PCDATA)>
+<!ATTLIST overflow presets (auto|hidden|scroll|visible|inherit) #REQUIRED>
+
+<!--create the positions for both images and texts-->
+<!ELEMENT positioning (position*, preset_position?)>
+<!ELEMENT position EMPTY>
+<!ATTLIST position direction (move_upwards|move_downwards|move_to_the_left|move_to_the_right) #REQUIRED>
+<!ATTLIST position value_in_pixels CDATA #REQUIRED>
+<!ELEMENT preset_position EMPTY>
+<!ATTLIST preset_position horizontal (left|right|center|none) #REQUIRED>
+
+
+
+<!--**************************************************-->
+<!--...................Animations.....................-->
+<!--**************************************************-->
+
+<!ELEMENT scrolling_animation (fade|fly|spin|scale|smush|pin|slide|wipe|bounce|color|fling|move|parallax_group)>
+<!ELEMENT text_scrolling_animation (fade|fly|spin|scale|smush)>
+<!ELEMENT image_scrolling_animation (fade|fly|spin)>
+
+<!--Fade animation-->
+<!ELEMENT fade EMPTY>
+<!ATTLIST fade %animation_effects; >
+
+<!--Fly animation-->
+<!--<!ELEMENT fly (direction_in_pixels)>-->
+<!ATTLIST fly %animation_effects; >
+<!--<!ELEMENT direction_in_pixels (right|left|top|bottom|right_top|right_bottom|left_top|left_bottom)>-->
+<!--<!ELEMENT direction_in_pixels (fly_to_the_right|fly_to_the_left|fly_upwards|fly_downwards|fly_upwards_to_the_right|fly_downwards_to_the_right|fly_upwards_to_the_left|fly_downwards_to_the_left)>-->
+<!ELEMENT fly (fly_to_the_right|fly_to_the_left|fly_upwards|fly_downwards|fly_upwards_to_the_right|fly_downwards_to_the_right|fly_upwards_to_the_left|fly_downwards_to_the_left)>
+<!ELEMENT fly_to_the_right EMPTY>
+<!ELEMENT fly_to_the_left EMPTY>
+<!ELEMENT fly_upwards EMPTY>
+<!ELEMENT fly_downwards EMPTY>
+
+<!ELEMENT fly_upwards_to_the_right (fly_upwards, fly_to_the_right)>
+<!ELEMENT fly_upwards_to_the_left (fly_upwards, fly_to_the_left)>
+<!ELEMENT fly_downwards_to_the_right (fly_downwards, fly_to_the_right)>
+<!ELEMENT fly_downwards_to_the_left (fly_downwards, fly_to_the_left)>
+
+<!ATTLIST fly_to_the_right in_pixels CDATA #REQUIRED>
+<!ATTLIST fly_to_the_left in_pixels CDATA #REQUIRED>
+<!ATTLIST fly_upwards in_pixels CDATA #REQUIRED>
+<!ATTLIST fly_downwards in_pixels CDATA #REQUIRED>
+
+
+<!--<!ELEMENT right_top (right, top)>
+<!ELEMENT right_bottom (right, bottom)>
+<!ELEMENT left_top (left, top)>
+<!ELEMENT left_bottom (left, bottom)>-->
+
+<!--Spin animation-->
+<!ELEMENT spin EMPTY>
+<!ATTLIST spin %animation_effects;>
+<!ATTLIST spin rotation_in_radians CDATA #REQUIRED>
+
+<!--Scale animation-->
+<!ELEMENT scale (scale_from, scale_to)>
+<!ATTLIST scale %animation_effects_no_opacity;>
+<!ELEMENT scale_from EMPTY>
+<!ATTLIST scale_from %opacity;>
+<!ATTLIST scale_from fontSize CDATA #REQUIRED>
+<!ELEMENT scale_to EMPTY>
+<!ATTLIST scale_to %opacity;>
+<!ATTLIST scale_to fontSize CDATA #REQUIRED>
+
+<!--Smush animation properties-->
+<!ELEMENT smush (smush_from, smush_to)>
+<!ATTLIST smush %animation_effects_no_opacity; >
+<!ELEMENT smush_from EMPTY>
+<!ATTLIST smush_from %opacity;>
+<!ATTLIST smush_from letter_spacing CDATA #REQUIRED>
+<!ELEMENT smush_to EMPTY>
+<!ATTLIST smush_to %opacity;>
+<!ATTLIST smush_to letter_spacing CDATA #REQUIRED>
+
+
+
+
+
+
+
+
+
+
+<!--NEED TO BE COMPLETED-->
+<!--Pin animation properties-->
+<!ELEMENT pin EMPTY>
+<!ATTLIST pin element_being_pinned (CDATA) #REQUIRED>
+<!ATTLIST pin %animation_effects;>
+<!ATTLIST pin animation_during_pin (CDATA) #IMPLIED>
+<!ATTLIST pin onPin (CDATA) #IMPLIED>
+<!ATTLIST pin onUnpin (CDATA) #IMPLIED>
+
+<!--Slide animation properties-->
+<!ELEMENT slide EMPTY>
+<!ATTLIST slide %animation_effects; >
+
+<!--Wipe animation properties-->
+<!ELEMENT wipe EMPTY>
+<!ATTLIST wipe %animation_effects; >
+
+<!--Bounce animation properties-->
+<!ELEMENT bounce EMPTY>
+<!ATTLIST bounce %animation_effects; >
+
+<!--Color animation properties-->
+<!ELEMENT color EMPTY>
+<!ATTLIST color %animation_effects; >
+
+<!--Fling animation properties-->
+<!ELEMENT fling EMPTY>
+<!ATTLIST fling %animation_effects; >
+
+<!--Move animation properties-->
+<!ELEMENT move EMPTY>
+<!ATTLIST move %animation_effects; >
+
+
+
+
+
+
+<!--*****************************-->
+<!--Parallax animation properties-->
+<!--*****************************-->
+
+<!--Overall parallax-->
+<!ELEMENT parallax_group (parallax_element)+>
+<!ATTLIST parallax_group %animation_effects; >
+<!ELEMENT parallax_element ( (text_element|image_element), direction)>
+
+<!--Text element properities for parallax object-->
+<!ELEMENT text_element EMPTY>
+<!ATTLIST text_element text_content CDATA #REQUIRED>
+
+<!--Image element properities for parallax object-->
+<!ELEMENT image_element EMPTY>
+<!ATTLIST image_element source CDATA #REQUIRED>
+<!ATTLIST image_element alt CDATA #REQUIRED>
+
+<!--Direction properties for parallax element-->
+<!ELEMENT direction (bottom_to_top|top_to_bottom|left_to_right|right_to_left)>
+
+<!--Have the directions be empty, force attributes to retrieve its position-->
+<!ELEMENT bottom_to_top EMPTY>
+<!ELEMENT top_to_bottom EMPTY>
+<!ELEMENT left_to_right EMPTY>
+<!ELEMENT right_to_left EMPTY>
+<!ATTLIST bottom_to_top %parallax_position;>
+<!ATTLIST top_to_bottom %parallax_position;>
+<!ATTLIST left_to_right %parallax_position;>
+<!ATTLIST right_to_left %parallax_position;>
+
+<!--*********************-->
+<!--End of parallax group-->
+<!--*********************-->
+
+
+

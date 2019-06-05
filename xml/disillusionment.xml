@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE digital_story SYSTEM "file:/C:/Users/Mike%20Maether/Documents/RIT/capstone/xml-conversion/xml/story.dtd">
+<digital_story>
+    <about include_title_page="yes">
+        <title>Disillusionment of 10 O'Clock</title>
+        <subtitle>A poem by Wallace Stevens</subtitle>
+        <creators>
+            <creator creator_type="Creator" creator_name="Mike Maether"/>
+        </creators>
+        <date month="April" day="11" year="2013"/>
+        <sources>
+            <source source_type="Written" source_title="Disillusionment of 10 O'Clock" source_creator="Wallace Stevens" source_link="http://en.wikipedia.org/wiki/Disillusionment_of_Ten_O%27Clock"/>
+        </sources>
+    </about>
+    <overall_style>
+        <overall_font background_color_preset="White" font_family="Lucida_Bright" font_size="48px"/>
+        <overall_spacing page_length="medium"/>
+        <paragraph_spacing/>
+        <control_bar show_day_night_mode_toggle="no"/>
+        <title_page_style font_color_preset="Ghost_White" font_family="Century_Gothic" font_size="48px" text_shadow="basic_shadow"/>
+        <page_length number_of_scenes_on_page="1"/>
+    </overall_style>
+    <story>
+        <scene text_shadow="basic_shadow" font_color_preset="Ghost_White">
+            <text z-index="1">
+                <text_content>The houses are haunted</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="-400"/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>By <bold>white</bold> night-gowns.</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="-400"/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>None are <font-color font_color_preset="Green">green</font-color> </text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="-400"/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>Or <font-color font_color_preset="Purple">purple</font-color> with <font-color font_color_preset="Green">green</font-color> rings,</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade offset="-400"/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>Or <font-color font_color_preset="Green">green</font-color> with <font-color font_color_preset="Yellow">yellow</font-color> rings,</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>Or <font-color font_color_preset="Yellow">yellow</font-color> with <font-color font_color_preset="Blue">blue</font-color> rings.</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>None of them are <italic>strange</italic>,</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>With socks of lace</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>And beaded ceintures.</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>People are not going</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>To dream of <font-color font_color_preset="Wheat">baboons</font-color> and <font-color font_color_preset="Burly_Wood">periwinkles</font-color>.</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>Only, here and there, an old sailor,</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>Drunk and asleep in his boots,</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1">
+                <text_content>Catches <font-color font_color_preset="Orange">tigers</font-color></text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+            <text z-index="1" padding-bottom="200px">
+                <text_content>In <font-color font_color_preset="Red">red</font-color> weather.</text_content>
+                <positioning>
+                    <preset_position horizontal="center"/>
+                </positioning>
+                <text_scrolling_animation>
+                    <fade/>
+                </text_scrolling_animation>
+            </text>
+        </scene>
+    </story>
+</digital_story>

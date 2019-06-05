@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+	<![endif]-->
+	<title>Digital Storytelling</title>
+	
+	<!-- Style Sheets -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/customizedStyle.css" type="text/css">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+	<link rel="stylesheet" href="css/hint.css" type="text/css">
+	<!--[if IE]>
+		<link rel="stylesheet" href="css/iefix.css" type="text/css">
+	<![endif]-->
+		
+	<!--Scripts-->
+	<script>
+		/* IMPORTANT: The XML filename goes here.*/
+		//var xmlStoryLocation = "http://people.rit.edu/mlm3743/capstone/xml/story1.xml";
+		//var xmlStoryLocation = "xml/disillusionment.xml";
+		var xmlStoryLocation = "xml/story1.xml";
+		//var xmlStoryLocation = "xml/test.xml";
+		//var xmlStoryLocation = "xml/the_picture_of_dorian_gray.xml";
+		//var xmlStoryLocation = "xml/final_story.xml";
+	</script>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  	<script>window.jQuery || document.write('<script src="js/jquery-1.9.1.min.js"><\/script>')</script>
+	<script src="js/jquery.superscrollorama.js"></script>
+	<script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>	
+	<script src="js/jquery.jqpagination.js"></script>
+	<script src="js/jquery.history.js"></script>
+	<script src="js/spin.js"></script>
+	<script src="js/storyParse8.js"></script>
+	<script src="js/controlbar.js"></script>
+	<script src="js/screenfull.min.js"></script>
+</head>
+
+<body>		
+
+	<!--Create a message in case JavaScript is disabled.-->
+	<noscript>
+		<div class="noJS">
+			<h2>JavaScript is disabled.</h2>
+			<p>I'm sorry, but you'll need JavaScript enabled to view this story. Please enable it to get the full digital story experience!</div>
+	 
+		<style type="text/css">
+			#main-content { display:none; }
+			.noJS {
+				margin: 100px auto 0;
+				display: table;
+			}
+			#loading, #loading-text, #controls, footer { display: none; }
+		</style>
+	</noscript>
+
+	<div id="control-bar">
+		<div id="controls">
+			
+			<!--
+			<select id="fonts">
+				<option value="fontselect" selected>Select a font</option>
+				<option value="times-new-roman">Times New Roman</option>
+				<option value="arial">Arial</option>
+				<option value="century-gothic">Century Gothic</option>
+			</select> 
+			-->
+			
+			<div id="modes">	
+				<div id="toggle-night-day">
+					<span id="toggle-tooltip" class="hint hint--bottom" data-hint="Night Mode">
+						<button id="toggle-button" class="night"> </button>
+					</span>
+				</div>
+				
+				<div id="toggle-fullscreen">
+					<span id="tooltip-fullscreen" class="hint hint--bottom" data-hint="Toggle Full Screen">
+						<button id="fullscreen-toggle"> </button>
+						<!-- <button id="fullscreen-toggle" class="fullscreen"> </button> -->
+					</span>
+				</div>
+				
+				<div id="normal-mode">
+					<p>Normal Mode</p>
+				</div>
+				<!--<button id="fullscreen"><p>Fullscreen</p></button>-->
+			</div>
+			
+			<div id="audio"> </div>
+			
+			<div class="pagination">
+				<a href="#" class="first" data-action="first">&laquo;</a> 
+				<a href="#" class="previous" data-action="previous">&lsaquo;</a>                
+				<input type="text" readonly="readonly" /> 
+				<a href="#" class="next" data-action="next">&rsaquo;</a> 
+				<a href="#" class="last" data-action="last">&raquo;</a> 
+			</div>
+			
+			<div class="clear-both"> </div>
+		</div>
+	</div>
+	<!--<div id="fullscreen-div" style="margin-top: 100px">
+		<button id="fullscreen"><p>FullScreen</p></button>
+	</div>-->
+			
+	<div id="container">
+		<div id="loading"> </div>
+		<div id="loading-text">
+			<h2>Loading the story...</h2>
+		</div>
+		<div id="about"> </div>
+		<div id="story"> </div>
+	</div>
+	
+	
+	<footer>
+		<div id="credits" class="letterpress2"> </div>
+	</footer>
+	
+	
+</body>
+
+</html>
